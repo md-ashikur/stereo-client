@@ -47,7 +47,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between  h-24">
           <div className="flex-shrink-0">
-            <Link href="/" className=" font-bold">
+            <Link href="/" className=" !font-bold">
               <Image src={logo} alt="" className='h-auto w-full'/>
             </Link>
           </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
               </Link>
               <div className="relative group" onClick={handleSubmenuClick}>
                 <button
-                  className={`px-3 py-2 rounded-md  font-medium flex items-center ${pathname === '/how-it-works' ? 'text-black font-bold' : 'text-black'}`}
+                  className={`px-3 py-2 rounded-md  font-medium flex items-center ${pathname === '/how-it-works' ? 'text-black !font-bold' : 'text-black'}`}
                 >
                   How does it work?
                   <FaChevronDown className={`ml-1 transition-transform ${submenuOpen ? 'rotate-180' : ''}`} />
@@ -79,10 +79,10 @@ const Navbar = () => {
                   </motion.div>
                 )}
               </div>
-              <Link href="/about" className={`px-3 py-2 rounded-md  font-medium ${pathname === '/about' ? 'text-black font-bold' : 'text-black'}`}>
+              <Link href="/about" className={`px-3 py-2 rounded-md  font-medium ${pathname === '/about' ? 'text-black !font-bold' : 'text-black'}`}>
                 About us
               </Link>
-              <Link href="/contact" className={`px-3 py-2 rounded-md  font-medium ${pathname === '/contact' ? 'text-black font-bold' : 'text-black'}`}>
+              <Link href="/contact" className={`px-3 py-2 rounded-md  font-medium ${pathname === '/contact' ? 'text-black !font-bold' : 'text-black'}`}>
                 Contact
               </Link>
               <Link href="/download" className="px-7 py-3 rounded-[10px] shadow-md shadow-[#5800B0]  font-medium text-white bg-[#5800B0] hover:bg-primary">
@@ -101,13 +101,13 @@ const Navbar = () => {
       {isOpen && (
         <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link href="/" className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/' ? 'text-black font-bold' : 'text-black'}`}>
+            <Link href="/" className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/' ? 'text-black !font-bold' : 'text-black'}`}>
               Home
             </Link>
             <div className="relative">
               <button
                 onClick={handleSubmenuClick}
-                className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium flex items-center ${pathname === '/how-it-works' ? 'text-black font-bold' : 'text-black'}`}
+                className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium flex items-center ${pathname === '/how-it-works' ? 'text-black !font-bold' : 'text-black'}`}
               >
                 How does it work?
                 <FaChevronDown className={`ml-1 transition-transform ${submenuOpen ? 'rotate-180' : ''}`} />
@@ -128,10 +128,10 @@ const Navbar = () => {
                 </motion.div>
               )}
             </div>
-            <Link href="/about" className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/about' ? 'text-black font-bold' : 'text-black'}`}>
+            <Link href="/about" className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/about' ? 'text-black !font-bold' : 'text-black'}`}>
               About us
             </Link>
-            <Link href="/contact" className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/contact' ? 'text-black font-bold' : 'text-black'}`}>
+            <Link href="/contact" className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/contact' ? 'text-black !font-bold' : 'text-black'}`}>
               Contact
             </Link>
             <Link href="/download" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-purple-600 hover:bg-purple-700">
