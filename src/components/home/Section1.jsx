@@ -7,18 +7,12 @@ import deezer from "../../../public/images/1280px-Deezer_logo 1 (Traced).png";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaApple } from "react-icons/fa";
 import Image from "next/image";
-import Ellipse1 from "../../../public/images/Ellipse 1.png";
-import Ellipse2 from "../../../public/images/Ellipse 2.png";
-import Ellipse3 from "../../../public/images/Ellipse 3.png";
+
 
 export default function Section1() {
   return (
     <div>
-      <div className=" ">
-        {/* <Image src={Ellipse1} alt="" className="absolute right-0 -z-10"/> */}
-        {/* <Image src={Ellipse2} alt="" className="absolute left-0 -z-10"/> */}
-        {/* <Image src={Ellipse3} alt="" className="absolute left-40 top-28 -z-10 "/> */}
-
+      <div >
         <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-18 -z-10 rounded-full blur-[100px] opacity-[0.75]"></div>
         <div className="h-[670px] w-[670px] bg-[#5800B0] absolute -left-40 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
         <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>

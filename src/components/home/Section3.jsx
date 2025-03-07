@@ -24,7 +24,7 @@ export default function Section3() {
               We made it easy with 3 simple steps
             </h2>
             <p>How does it work?</p>
-            <ul className="list-disc list-inside ml-2">
+            <ul className="list-disc list-inside ml-2 space-y-2">
               <li>
                 <a
                   href="https://scanned.page/p/67b61e07751ed"
@@ -55,36 +55,36 @@ export default function Section3() {
         {/* ------------------- */}
 
         <div className="max-w-[1440px] grid grid-cols-2 gap-5">
-          <div className="py-10 pr-10 space-y-5">
+          <div className="py-10 pr-8 space-y-5">
             <h2 className="text-4xl font-bold">We promote inclusivity</h2>
 
-            <div className="grid grid-cols-8 gap-3">
+            <div className="grid grid-cols-9 gap-3">
               <Image src={user} alt="" className="h-10 w-auto" />
-              <p className="col-span-7">
+              <p className="col-span-8">
                 <b>Real Users, Real Engagement</b> – Your content reaches a
                 network of real drivers and passengers, not just passive
                 scrollers. Analytics will talk for you!
               </p>
             </div>
-            <div className="grid grid-cols-8 gap-3">
+            <div className="grid grid-cols-9 gap-3">
               <Image src={playlist} alt="" className="h-10 w-auto" />
-              <p className="col-span-7">
+              <p className="col-span-8">
                 <b>No Need for Playlist Curation </b>– Your content is
                 automatically placed in a general playlist, ensuring it gets
                 played.
               </p>
             </div>
 
-            <div className="grid grid-cols-8 gap-3">
+            <div className="grid grid-cols-9 gap-3">
               <Image src={star} alt="" className="h-10 w-auto" />
-              <p className="col-span-7">
+              <p className="col-span-8">
                 <b>100% Play Rate</b> – Unlike other platforms where users can
                 skip, your content is fully heard.
               </p>
             </div>
-            <div className="grid grid-cols-8 gap-3">
+            <div className="grid grid-cols-9 gap-3">
               <Image src={trending} alt="" className="h-10 w-auto" />
-              <p className="col-span-7">
+              <p className="col-span-8">
                 <b>Get Trending</b> – The Top 100 ranks the most engaging
                 content and profiles, boosting your visibility
               </p>
