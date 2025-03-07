@@ -22,7 +22,8 @@ export default function Section1() {
           <Image src={Ellipse3} alt="" className="absolute left-40 top-28 -z-10 "/>
         </div>
 
-     <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
+    <div className="max-w-[1440px]  flex flex-col items-center justify-center mx-auto">
+    <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
       <div className="lg:col-span-3 my-20 flex flex-col justify-center ">
         <h1 className="text-6xl font-bold">To make Audio Money, <span className="text-[#5800B0]">Press Play</span></h1>
         <p className="text-2xl my-10">Turn your daily routine into daily money. One app to transform your audio content into real money. The only playlist that values your time is on Stereo Pay.</p>
@@ -50,6 +51,7 @@ export default function Section1() {
         <Image src={radio} alt="" className="h-auto w-full lg:pt-12"/>
    
       </div>
+    </div>
     </div>
 {/* brand logos---------------- */}
     <div className="flex justify-center flex-wrap my-16 space-x-20 lg:px-20 px-5">

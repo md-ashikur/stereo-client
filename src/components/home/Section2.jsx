@@ -37,7 +37,7 @@ export default function Section2() {
   <div className="bg-white/30 backdrop-blur-sm shadow-lg p-8 w-[400px] border border-white rounded-2xl flex flex-col items-center justify-center">
     <Image src={creditCard} alt="" className="relative -top-28" />
     <div>
-    <h3 className="text-[#5800B0] font-semibold text-2xl text-primary -mt-16">
+    <h3 className="text-[#5800B0] font-semibold text-2xl text-primary -mt-18">
     Your voice can go viral with over 2 million subscribers
     </h3>
     <p className="mt-4">
