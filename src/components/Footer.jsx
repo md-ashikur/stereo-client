@@ -49,9 +49,9 @@ const Footer = () => {
             {/* Social Icons */}
             <div className="flex mt-10 space-x-4 text-xl">
             <a href="/"> <IoLogoTwitter className="hover:scale-115 transition duration-150"/></a>
-             <a href="/"><FaLinkedinIn className="hover:scale-115 transition duration-150"/></a>
-             <a href="/"><FaInstagram className="hover:scale-115 transition duration-150"/></a>
-             <a href="/"><FaFacebookF className="hover:scale-115 transition duration-150"/></a>
+             <a href="https://www.linkedin.com/company/stereopay/"><FaLinkedinIn className="hover:scale-115 transition duration-150"/></a>
+             <a href="https://www.instagram.com/stereopay/"><FaInstagram className="hover:scale-115 transition duration-150"/></a>
+             <a href="https://www.facebook.com/stereopay"><FaFacebookF className="hover:scale-115 transition duration-150"/></a>
             </div>
           </div>
 
