@@ -58,7 +58,7 @@ const Navbar = () => {
               </Link>
               <div className="relative group" onClick={handleSubmenuClick}>
                 <button
-                  className={`px-3 py-2 rounded-md  font-medium flex items-center ${pathname === '/how-it-works' ? 'text-black !font-bold' : 'text-black'}`}
+                  className={`px-3 py-2 rounded-md  font-medium flex items-center ${pathname === '/how-it-works/creators' || pathname === '/how-it-works/listeners' ? 'text-black !font-bold' : 'text-black'}`}
                 >
                   How does it work?
                   <FaChevronDown className={`ml-1 transition-transform ${submenuOpen ? 'rotate-180' : ''}`} />
@@ -67,13 +67,13 @@ const Navbar = () => {
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+                    className="absolute left-0 mt-8 w-48 rounded-lg shadow-lg bg-white/30 p-3 bg-opacity-30 !backdrop-blur-md "
                     onClick={(e) => e.stopPropagation()}
                   >
-                    <Link href="/how-it-works/creators" className="block px-4 py-2  text-black hover:bg-gray-100">
+                    <Link href="/how-it-works/creators" className={`${pathname === '/how-it-works/creators' ? 'text-black !font-bold bg-white' : 'text-black'} block px-4 py-2 rounded-lg  `} onClick={handleSubmenuClick}>
                       Creators
                     </Link>
-                    <Link href="/how-it-works/listeners" className="block px-4 py-2  text-black hover:bg-gray-100">
+                    <Link href="/how-it-works/listeners" className={`${pathname === '/how-it-works/listeners' ? 'text-black !font-bold bg-white' : 'text-black'} block px-4 py-2 rounded-lg `} onClick={handleSubmenuClick}>
                       Listeners
                     </Link>
                   </motion.div>
