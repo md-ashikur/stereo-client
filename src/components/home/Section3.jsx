@@ -8,7 +8,12 @@ import star from "../../../public/images/star.png";
 import trending from "../../../public/images/trending.png";
 export default function Section3() {
   return (
-    <div>
+    <div className="relative">
+      <div>
+        <div className="h-[336px] w-[336px] bg-[#5800B0] absolute -left-32 bottom-38 -z-10 rounded-full blur-[120px] opacity-[0.54]"></div>
+        <div className="h-[724px] w-[724px] bg-[#5800B0] absolute -right-72 -bottom-38 -z-10 rounded-full blur-[100px] opacity-[0.37]"></div>
+      </div>
+
       <div className="flex flex-col justify-center items-center px-20 space-y-16">
         <div className="max-w-[1440px] grid grid-cols-2 gap-5">
           <div>
@@ -52,9 +57,9 @@ export default function Section3() {
         <div className="max-w-[1440px] grid grid-cols-2 gap-5">
           <div className="py-10 pr-10 space-y-5">
             <h2 className="text-4xl font-bold">We promote inclusivity</h2>
-       
+
             <div className="grid grid-cols-8 gap-3">
-                <Image  src={user} alt="" className="h-10 w-auto"/>
+              <Image src={user} alt="" className="h-10 w-auto" />
               <p className="col-span-7">
                 <b>Real Users, Real Engagement</b> – Your content reaches a
                 network of real drivers and passengers, not just passive
@@ -62,20 +67,27 @@ export default function Section3() {
               </p>
             </div>
             <div className="grid grid-cols-8 gap-3">
-            <Image  src={playlist} alt="" className="h-10 w-auto"/>
+              <Image src={playlist} alt="" className="h-10 w-auto" />
               <p className="col-span-7">
-                <b>No Need for Playlist Curation </b>– Your content is automatically
-                placed in a general playlist, ensuring it gets played.
+                <b>No Need for Playlist Curation </b>– Your content is
+                automatically placed in a general playlist, ensuring it gets
+                played.
               </p>
             </div>
 
             <div className="grid grid-cols-8 gap-3">
-            <Image  src={star} alt="" className="h-10 w-auto"/>
-                <p className="col-span-7"><b>100% Play Rate</b> – Unlike other platforms where users can skip, your content is fully heard.</p>
+              <Image src={star} alt="" className="h-10 w-auto" />
+              <p className="col-span-7">
+                <b>100% Play Rate</b> – Unlike other platforms where users can
+                skip, your content is fully heard.
+              </p>
             </div>
             <div className="grid grid-cols-8 gap-3">
-            <Image  src={trending} alt="" className="h-10 w-auto"/>
-                <p className="col-span-7"><b>Get Trending</b> – The Top 100 ranks the most engaging content and profiles, boosting your visibility</p>
+              <Image src={trending} alt="" className="h-10 w-auto" />
+              <p className="col-span-7">
+                <b>Get Trending</b> – The Top 100 ranks the most engaging
+                content and profiles, boosting your visibility
+              </p>
             </div>
           </div>
 
