@@ -11,6 +11,8 @@ module.exports = {
         gotham: ['var(--font-gotham)', 'sans-serif'],
       },
       fontWeight: {
+        thin: '100',
+        extraLight: '200',
         light: '300',
         normal: '400',
         bold: '800',
@@ -25,21 +27,13 @@ module.exports = {
           DEFAULT: "#FFF6EA",
           100: "#f9d5d5",
           500: "#bf7e6e",
-         
         },
         third: {
           DEFAULT: "#1F2937",
-         
         },
-
-        // neutral: {
-        //   DEFAULT: "#1F2937", 
-        // },
         white: {
-          DEFAULT: "#FFFFFF", 
+          DEFAULT: "#FFFFFF",
         },
-
-     
       },
     },
   },

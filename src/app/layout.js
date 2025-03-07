@@ -6,6 +6,16 @@ import Navbar from "@/components/Navbars/Navbar";
 const Gotham = localFont({
   src: [
     {
+      path: '../../public/fonts/Gotham-Thin.otf',
+      weight: '100',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Gotham-ExtraLight.otf',
+      weight: '200',
+      style: 'normal',
+    },
+    {
       path: '../../public/fonts/Gotham-Light.otf',
       weight: '300',
       style: 'normal',

@@ -1,12 +1,49 @@
 import React from "react";
 import radio from "../../../public/images/RADIO_HOME 1.png";
+import shopify from "../../../public/images/Spotify_Logo_CMYK_Green 1 (Traced).png";
+import uber from "../../../public/images/2560px-Uber_logo_2018 1 (Traced).png";
+import bolt from "../../../public/images/1024px-Bolt_logo 1 (Traced).png";
+import deezer from "../../../public/images/1280px-Deezer_logo 1 (Traced).png";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { FaApple } from "react-icons/fa";
 import Image from "next/image";
+import Ellipse1 from "../../../public/images/Ellipse 1.png";
+import Ellipse2 from "../../../public/images/Ellipse 2.png";
+import Ellipse3 from "../../../public/images/Ellipse 3.png";
+
+
 export default function Section1() {
   return (
-    <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
-      <div className="lg:col-span-3 my-20 flex flex-col justify-center items-center">
+   <div>
+
+      <div className=" ">
+          <Image src={Ellipse1} alt="" className="absolute right-0 -z-10"/>
+          <Image src={Ellipse2} alt="" className="absolute left-0 -z-10"/>
+          <Image src={Ellipse3} alt="" className="absolute left-40 top-28 -z-10 "/>
+        </div>
+
+     <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
+      <div className="lg:col-span-3 my-20 flex flex-col justify-center ">
         <h1 className="text-6xl font-bold">To make Audio Money, <span className="text-[#5800B0]">Press Play</span></h1>
         <p className="text-2xl my-10">Turn your daily routine into daily money. One app to transform your audio content into real money. The only playlist that values your time is on Stereo Pay.</p>
+
+    <div className="flex gap-7">
+    <button className="grid grid-cols-4 gap-2 bg-black text-white rounded-[10px] p-2">
+            <span><IoLogoGooglePlaystore className="text-5xl"/></span>
+            <span className="col-span-3 text-left">
+                <p className="font-thin text-sm">Available on the</p>
+                <p className=" text-2xl">Google Play</p>
+            </span>
+        </button>
+    <button className="grid grid-cols-4 gap-2 bg-black text-white rounded-[10px] p-2">
+            <span><FaApple className="text-5xl"/></span>
+            <span className="col-span-3 text-left">
+            <p className="font-thin text-sm">Download on the</p>
+            <p className=" text-2xl">App Store</p>
+            </span>
+        </button>
+     
+    </div>
       </div>
 
       <div className="flex justify-center lg:col-span-2 lg:px-8 px-5 ">
@@ -14,5 +51,16 @@ export default function Section1() {
    
       </div>
     </div>
+{/* brand logos---------------- */}
+    <div className="flex justify-center flex-wrap my-16 space-x-20 lg:px-20 px-5">
+    <Image src={shopify} alt="" className="h-full w-auto"/>
+    <Image src={uber} alt="" className="h-full w-auto"/>
+    <Image src={bolt} alt="" className="h-full w-auto"/>
+    <Image src={deezer} alt="" className="h-full w-auto"/>
+    <Image src={shopify} alt="" className="h-full w-auto"/>
+    <Image src={uber} alt="" className="h-full w-auto"/>
+
+    </div>
+   </div>
   );
 }
