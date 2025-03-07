@@ -38,7 +38,7 @@ export default function Section1() {
               your time is on Stereo Pay.
             </p>
 
-            <div className="flex gap-7">
+            <div className="flex lg:flex-row flex-col gap-7">
               <button className="grid grid-cols-4 gap-2 bg-black text-white rounded-[10px] p-2">
                 <span>
                   <IoLogoGooglePlaystore className="text-5xl" />

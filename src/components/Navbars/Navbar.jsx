@@ -70,10 +70,10 @@ const Navbar = () => {
                     className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
                     onClick={(e) => e.stopPropagation()}
                   >
-                    <Link href="/creators" className="block px-4 py-2  text-black hover:bg-gray-100">
+                    <Link href="/how-it-works/creators" className="block px-4 py-2  text-black hover:bg-gray-100">
                       Creators
                     </Link>
-                    <Link href="/listeners" className="block px-4 py-2  text-black hover:bg-gray-100">
+                    <Link href="/how-it-works/listeners" className="block px-4 py-2  text-black hover:bg-gray-100">
                       Listeners
                     </Link>
                   </motion.div>
@@ -119,10 +119,10 @@ const Navbar = () => {
                   className="pl-4"
                   onClick={(e) => e.stopPropagation()}
                 >
-                  <Link href="/how-does-it-work/creators" className="block px-4 py-2  text-black hover:bg-gray-100">
+                  <Link href="/how-it-works/creators" className="block px-4 py-2  text-black hover:bg-gray-100">
                     Creators
                   </Link>
-                  <Link href="/how-does-it-work/listeners" className="block px-4 py-2  text-black hover:bg-gray-100">
+                  <Link href="/how-it-works/listeners" className="block px-4 py-2  text-black hover:bg-gray-100">
                     Listeners
                   </Link>
                 </motion.div>
