@@ -1,6 +1,7 @@
 import localFont from 'next/font/local'
 import "./globals.css";
 import Navbar from "@/components/Navbars/Navbar";
+import Footer from '@/components/Footer';
 
 
 const Gotham = localFont({
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );

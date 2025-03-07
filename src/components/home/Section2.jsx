@@ -9,11 +9,14 @@ import Ellipse5 from "../../../public/images/Ellipse 5.png";
 
 export default function Section2() {
   return (
-   <div className="relative  flex flex-col items-center justify-center mx-auto">
+   <div className="relative flex flex-col items-center justify-center mx-auto">
 
     <div className=" ">
-      <Image src={Ellipse4} alt="" className="absolute right-0 -top-96"/>
-      <Image src={Ellipse5} alt="" className="absolute left-0"/>
+      {/* <Image src={Ellipse4} alt="" className="absolute right-0 -top-96"/> */}
+      {/* <Image src={Ellipse5} alt="" className="absolute left-0"/> */}
+
+      <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 top-40 rounded-full blur-[100px] opacity-[0.36]"></div>
+      <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 -top-20 rounded-full blur-[200px] opacity-[0.36]"></div>
     </div>
 
 <div className="max-w-[1440px] flex lg:flex-row flex-col gap-5 py-38 ">
