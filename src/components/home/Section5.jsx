@@ -13,15 +13,18 @@ export default function Section5() {
       </div>
 
 
-      <div className=" flex flex-col justify-center items-start my-16 px-20">
-        <div className="max-w-[1440px]">
-          <h1 className="font-bold text-4xl my-10 items-start">
+      <div className=" my-16 px-20">
+        <div className=" flex flex-col justify-center !items-start">
+          
+          <h1 className="font-bold text-4xl my-10 ">
             What do people think about us ?
           </h1>
+    
         </div>
 
         {/* Are you still tuning for free ?------------- */}
-        <div className="bg-white/30 backdrop-blur-sm shadow-lg w-full my-10 border border-white rounded-2xl flex flex-col items-center text-center justify-center p-14 space-y-8">
+       <div className="flex justify-center">
+       <div className="bg-white/30 backdrop-blur-sm shadow-lg max-w-[1440px] w-full my-10 border border-white rounded-2xl flex flex-col items-center text-center justify-center p-14 space-y-8">
           <h1 className="text-4xl font-bold text-[#5800B0]">
             Are you still tuning for free ?
           </h1>
@@ -47,6 +50,7 @@ export default function Section5() {
             </button>
           </div>
         </div>
+       </div>
       </div>
     </div>
   );
