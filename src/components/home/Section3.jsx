@@ -11,6 +11,7 @@ export default function Section3() {
     <div className="relative">
       <div>
         <div className="h-[336px] w-[336px] bg-[#5800B0] absolute -left-32 bottom-38 -z-10 rounded-full blur-[120px] opacity-[0.54]"></div>
+        <div className="h-[1024px] w-[1024px] bg-[#5800B0] absolute -left-72 -bottom-28 -z-10 rounded-full blur-[120px] opacity-[0.10]"></div>
         <div className="h-[724px] w-[724px] bg-[#5800B0] absolute -right-72 -bottom-38 -z-10 rounded-full blur-[100px] opacity-[0.37]"></div>
       </div>
 

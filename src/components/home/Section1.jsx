@@ -23,7 +23,7 @@ export default function Section1() {
           <div className="lg:col-span-3  flex flex-col justify-center ">
            <div className="mt-32">
            <h1 className="text-6xl font-bold">
-              To make Audio Money,{" "}
+              To make Audio Money,
               <span className="text-[#5800B0]">Press Play</span>
             </h1>
             <p className="text-2xl my-10">
@@ -32,26 +32,26 @@ export default function Section1() {
               your time is on Stereo Pay.
             </p>
 
-            <div className="flex lg:flex-row flex-col gap-7">
-              <button className="grid grid-cols-4 gap-2 bg-black text-white rounded-[10px] p-2">
-                <span>
-                  <IoLogoGooglePlaystore className="text-5xl" />
-                </span>
-                <span className="col-span-3 text-left">
-                  <p className="font-thin text-sm">Available on the</p>
-                  <p className=" text-2xl">Google Play</p>
-                </span>
-              </button>
-              <button className="grid grid-cols-4 gap-2 bg-black text-white rounded-[10px] p-2">
-                <span>
-                  <FaApple className="text-5xl" />
-                </span>
-                <span className="col-span-3 text-left">
-                  <p className="font-thin text-sm">Download on the</p>
-                  <p className=" text-2xl">App Store</p>
-                </span>
-              </button>
-            </div>
+           <div className="flex lg:flex-row flex-col gap-7 mb-10">
+                      <button className="flex items-center bg-black text-white rounded-lg p-2">
+                        <span>
+                          <IoLogoGooglePlaystore className="text-5xl" />
+                        </span>
+                        <span className=" text-left">
+                          <p className="font-thin text-xs">Available on the</p>
+                          <p className=" text-xl">Google Play</p>
+                        </span>
+                      </button>
+                      <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2">
+                        <span>
+                          <FaApple className="text-5xl" />
+                        </span>
+                        <span className=" text-left">
+                          <p className="font-thin text-xs">Download on the</p>
+                          <p className=" text-xl mr-4">App Store</p>
+                        </span>
+                      </button>
+                    </div>
            </div>
           </div>
 
