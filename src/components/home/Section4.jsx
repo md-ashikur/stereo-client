@@ -5,6 +5,7 @@ import logo from "../../../public/images/Group.png";
 import profit from "../../../public/images/profit.jpeg";
 import painting from "../../../public/images/Incon_painting_kit.png";
 import headphone from "../../../public/images/Incon_headphone.png";
+import line from "../../../public/images/Vector 335.png";
 
 export default function Section4() {
   return (
@@ -16,15 +17,25 @@ export default function Section4() {
         <div className="h-[866px] w-[866px] bg-[#5800B0] absolute right-0 -bottom-96 -z-10 rounded-full blur-[200px] opacity-[0.17]"></div>
       </div>
 
-
-
       <div className="flex flex-col items-center justify-center my-16 px-20">
-        <div className=" max-w-[1440px] flex flex-col items-center justify-center">
+        <div className=" max-w-[1300px] flex flex-col items-center justify-center">
           <h1 className="font-bold text-4xl text-center my-10">
             Discover how does it work
           </h1>
 
           <div className="relative grid grid-cols-3 gap-8 mt-52">
+            <div className="flex justify-center absolute -top-42 w-full left-0">
+            <div className="flex justify-center absolute w-full">
+            <div className="absolute -top-10 left-65 z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
+                $
+              </div>
+
+              <div className="absolute -top-10 right-[25vw] z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
+                $
+              </div>
+            </div>
+              <Image src={line} alt="" className="" />
+            </div>
             {/* card 1---------------- */}
             <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center justify-center">
               <div className="h-[195px] w-[195px] rounded-full overflow-hidden -mt-28">
@@ -43,7 +54,7 @@ export default function Section4() {
               </div>
               <div>
                 <h3 className=" font-semibold text-2xl p-16 text-primary text-center">
-                StereoPay donates profits to the user
+                  StereoPay donates profits to the user
                 </h3>
               </div>
             </div>
@@ -54,11 +65,10 @@ export default function Section4() {
               </div>
               <div>
                 <h3 className=" font-semibold text-2xl p-16 text-primary text-center">
-                The user receives a part of the profits
+                  The user receives a part of the profits
                 </h3>
               </div>
             </div>
-          
           </div>
 
           <button className="bg-[#5800B0] rounded-lg shadow-lg my-16 text-white px-4 py-2">
@@ -101,10 +111,12 @@ export default function Section4() {
                 />
                 <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center text-center justify-center p-14 space-y-8">
                   <h1 className="text-5xl mt-4 font-bold text-[#5800B0]">
-                  Listeners:
+                    Listeners:
                   </h1>
                   <p className="text-2xl">
-                  Car owners, music lovers, fit fam, entertainment and lifestyle enthusiasts. Working on the road or from home, working out or cooking, this playlist is made for you !
+                    Car owners, music lovers, fit fam, entertainment and
+                    lifestyle enthusiasts. Working on the road or from home,
+                    working out or cooking, this playlist is made for you !
                   </p>
 
                   <button className="bg-[#5800B0] rounded-lg shadow-lg  text-white px-4 py-2">
