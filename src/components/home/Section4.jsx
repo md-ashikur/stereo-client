@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import music from "../../../public/images/music.jpeg";
+import logo from "../../../public/images/Group.png";
 import profit from "../../../public/images/profit.jpeg";
 import painting from "../../../public/images/Incon_painting_kit.png";
 import headphone from "../../../public/images/Incon_headphone.png";
@@ -37,8 +38,8 @@ export default function Section4() {
             </div>
             {/* card 2---------------- */}
             <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center justify-center">
-              <div className="h-[195px] w-[195px] rounded-full overflow-hidden -mt-28">
-                <Image src={music} alt="music" className="h-full w-auto" />
+              <div className="h-[195px] w-[195px] bg-[#FBC02D] flex justify-center items-center rounded-full overflow-hidden -mt-28">
+                <Image src={logo} alt="music" className="h-auto " />
               </div>
               <div>
                 <h3 className=" font-semibold text-2xl p-16 text-primary text-center">
@@ -100,7 +101,7 @@ export default function Section4() {
                 />
                 <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center text-center justify-center p-14 space-y-8">
                   <h1 className="text-5xl mt-4 font-bold text-[#5800B0]">
-                  Listeners :
+                  Listeners:
                   </h1>
                   <p className="text-2xl">
                   Car owners, music lovers, fit fam, entertainment and lifestyle enthusiasts. Working on the road or from home, working out or cooking, this playlist is made for you !
