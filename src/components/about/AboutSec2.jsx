@@ -12,10 +12,12 @@ export default function AboutSec2() {
         <div className="h-[355px] w-[357px] bg-[#5800B0] absolute -left-60 top-80 rounded-full blur-[100px] opacity-[0.36]"></div>
         <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 top-40 rounded-full blur-[140px] opacity-[0.36]"></div>
       </div>
-      <div className="flex flex-col items-center justify-center px-20 ">
-        <h1 className="text-4xl font-bold ">Our values</h1>
 
-        <div className="max-w-[1440px] grid grid-cols-4 gap-5 my-16">
+      {/* ---------our values----------------- */}
+      <div className="flex flex-col items-center justify-center px-20 py-10">
+        <h1 className="text-4xl font-bold mb-16">Our values</h1>
+
+        <div className="max-w-[1440px] grid grid-cols-4 gap-5 ">
           {/* card 1---------------- */}
           <div className="bg-white/30 backdrop-blur-sm shadow-lg py-10 px-8 text-center border border-white rounded-2xl flex flex-col items-center  space-y-10">
             <Image src={coin} alt="" className="" />
@@ -66,6 +68,32 @@ export default function AboutSec2() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+
+      {/* Stereo Pay in numbers------------ */}
+      <div className="bg-white/30 bg-opacity-30 backdrop-blur-md h-64 my-20 px-20 py-10">
+        <h1 className="font-bold text-4xl text-center">Stereo Pay in numbers</h1>
+
+        <div className="grid grid-cols-4 gap-5 text-center my-10">
+            <div className="space-y-5">
+                <h1 className="text-5xl font-bold">250k</h1>
+                <p>Subscribers to the most anticipated waitlist</p>
+            </div>
+            <div className="space-y-5">
+                <h1 className="text-5xl font-bold">6000+</h1>
+                <p>registered cars </p>
+            </div>
+            <div className="space-y-5">
+                <h1 className="text-5xl font-bold">98%</h1>
+                <p>referral rate</p>
+            </div>
+            <div className="space-y-5">
+                <h1 className="text-5xl font-bold">2 million </h1>
+                <p>listeners reach over</p>
+            </div>
+
         </div>
       </div>
     </div>
