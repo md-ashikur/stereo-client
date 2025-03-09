@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <AboutSec1/>
       <AboutSec2/>
     </div>
