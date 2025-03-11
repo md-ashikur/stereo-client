@@ -25,7 +25,7 @@ export default function Section4() {
 
           <div className="relative grid grid-cols-3 gap-8 mt-52">
             <div className="flex justify-center absolute -top-42 w-full left-0">
-            <div className="flex justify-center absolute w-full">
+        
             <div className="absolute -top-10 left-65 z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
                 $
               </div>
@@ -33,7 +33,7 @@ export default function Section4() {
               <div className="absolute -top-10 right-[25vw] z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
                 $
               </div>
-            </div>
+          
               <Image src={line} alt="" className="" />
             </div>
             {/* card 1---------------- */}
