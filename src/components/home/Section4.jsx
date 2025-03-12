@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import music from "../../../public/images/music.jpeg";
 import logo from "../../../public/images/Group.png";
-import profit from "../../../public/images/profit.jpeg";
+import driver from "../../../public/images/driver.jpg";
 import painting from "../../../public/images/Incon_painting_kit.png";
 import headphone from "../../../public/images/Incon_headphone.png";
 import line from "../../../public/images/Vector 335.png";
@@ -23,49 +23,51 @@ export default function Section4() {
             Discover how does it work
           </h1>
 
-          <div className="relative grid grid-cols-3 gap-8 mt-52">
-            <div className="flex justify-center absolute -top-42 w-full left-0">
-        
-            <div className="absolute -top-10 left-65 z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
-                $
-              </div>
-
-              <div className="absolute -top-10 right-[25vw] z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
-                $
-              </div>
-          
-              <Image src={line} alt="" className="" />
+          {/* $ circle----------------- */}
+          <div className="max-w-[800px] w-[550px] flex justify-between items-center relative">
+            <div className="-ml-12 -mb-24 z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
+              $
             </div>
+
+            <div className="-mb-24 mr-5 z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
+              $
+            </div>
+          </div>
+
+            <div className="relative max-w-[950px] w-[820px] flex justify-center items-center ">
+              <Image src={line} alt="" className="-mb-56 " />
+            </div>
+          <div className="relative grid grid-cols-3 gap-8 mt-50">
             {/* card 1---------------- */}
-            <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center justify-center">
-              <div className="h-[195px] w-[195px] rounded-full overflow-hidden -mt-28">
+            <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center ">
+              <div className="h-[195px] w-[195px] rounded-full overflow-hidden -mt-24">
                 <Image src={music} alt="" className="h-full w-auto" />
               </div>
               <div>
-                <h3 className=" font-semibold text-2xl p-16 text-primary text-center">
-                  The creator pays to be featured in StereoPay
+                <h3 className=" font-semibold text-2xl p-10 text-primary text-center">
+                Creators and Advertisers promote their campaign on Stereo Pay
                 </h3>
               </div>
             </div>
             {/* card 2---------------- */}
-            <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center justify-center">
-              <div className="h-[195px] w-[195px] bg-[#FBC02D] flex justify-center items-center rounded-full overflow-hidden -mt-28">
+            <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center ">
+              <div className="h-[195px] w-[195px] bg-[#FBC02D] flex justify-center items-center rounded-full overflow-hidden -mt-24">
                 <Image src={logo} alt="music" className="h-auto " />
               </div>
               <div>
-                <h3 className=" font-semibold text-2xl p-16 text-primary text-center">
-                  StereoPay donates profits to the user
+                <h3 className=" font-semibold text-2xl p-10 text-primary text-center">
+                Stereo Pay shares the revenue with targeted drivers
                 </h3>
               </div>
             </div>
             {/* card 3---------------- */}
-            <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center justify-center">
-              <div className="h-[195px] w-[195px] rounded-full overflow-hidden -mt-28">
-                <Image src={profit} alt="profit" className=" scale-170 m-10" />
+            <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center ">
+              <div className="h-[195px] w-[195px] rounded-full overflow-hidden -mt-24">
+                <Image src={driver} alt="driver" className=" scale-150 -ml-10 mt-8" />
               </div>
               <div>
-                <h3 className=" font-semibold text-2xl p-16 text-primary text-center">
-                  The user receives a part of the profits
+                <h3 className=" font-semibold text-2xl p-10 text-primary text-center">
+                Drivers are rewarded for broadcasting content to their passengers
                 </h3>
               </div>
             </div>

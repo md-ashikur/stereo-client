@@ -18,7 +18,7 @@ export default function Section1() {
         <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>
       </div>
 
-      <div className="max-w-[1440px]  flex flex-col items-center justify-center mx-auto">
+      <div className="max-w-[1440px] mx-auto">
         <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
           <div className="lg:col-span-3  flex flex-col justify-center ">
            <div className="mt-32">

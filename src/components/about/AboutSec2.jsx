@@ -14,10 +14,10 @@ export default function AboutSec2() {
       </div>
 
       {/* ---------our values----------------- */}
-      <div className="flex flex-col items-center justify-center px-20 py-10">
-        <h1 className="text-4xl font-bold mb-16">Our values</h1>
+      <div className="max-w-[1440px] mx-auto lg:px-20 px-5 py-10">
+        <h1 className="text-4xl font-bold mb-16 text-center">Our values</h1>
 
-        <div className="max-w-[1440px] grid grid-cols-4 gap-5 ">
+        <div className=" grid lg:grid-cols-4 gap-5 ">
           {/* card 1---------------- */}
           <div className="bg-white/30 backdrop-blur-sm shadow-lg py-10 px-8 text-center border border-white rounded-2xl flex flex-col items-center  space-y-10">
             <Image src={coin} alt="" className="" />
@@ -71,29 +71,31 @@ export default function AboutSec2() {
         </div>
       </div>
 
-
       {/* Stereo Pay in numbers------------ */}
-      <div className="bg-white/30 bg-opacity-30 backdrop-blur-md h-64 my-20 px-20 py-10">
-        <h1 className="font-bold text-4xl text-center">Stereo Pay in numbers</h1>
+      <div className="bg-white/30 bg-opacity-30 backdrop-blur-md lg:h-64 my-20 px-5 lg:px-20 py-10">
+        <div className="max-w-[1440px] mx-auto">
+          <h1 className="font-bold text-4xl text-center">
+            Stereo Pay in numbers
+          </h1>
 
-        <div className="grid grid-cols-4 gap-5 text-center my-10">
+          <div className="grid lg:grid-cols-4 gap-5 text-center my-10">
             <div className="space-y-5">
-                <h1 className="text-5xl font-bold">250k</h1>
-                <p>Subscribers to the most anticipated waitlist</p>
+              <h1 className="text-5xl font-bold">250k</h1>
+              <p>Subscribers to the most anticipated waitlist</p>
             </div>
             <div className="space-y-5">
-                <h1 className="text-5xl font-bold">6000+</h1>
-                <p>registered cars </p>
+              <h1 className="text-5xl font-bold">6000+</h1>
+              <p>registered cars </p>
             </div>
             <div className="space-y-5">
-                <h1 className="text-5xl font-bold">98%</h1>
-                <p>referral rate</p>
+              <h1 className="text-5xl font-bold">98%</h1>
+              <p>referral rate</p>
             </div>
             <div className="space-y-5">
-                <h1 className="text-5xl font-bold">2 million </h1>
-                <p>listeners reach over</p>
+              <h1 className="text-5xl font-bold">2 million </h1>
+              <p>listeners reach over</p>
             </div>
-
+          </div>
         </div>
       </div>
     </div>
