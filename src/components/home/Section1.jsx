@@ -20,10 +20,10 @@ export default function Section1() {
 
       <div className="max-w-[1440px] mx-auto">
         <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
-          <div className="lg:col-span-3  flex flex-col justify-center ">
+          <div className="lg:col-span-3   ">
            <div className="mt-32">
            <h1 className="text-6xl font-bold">
-              To make Audio Money,
+              To make Audio Money,<br/>
               <span className="text-[#5800B0]">Press Play</span>
             </h1>
             <p className="text-2xl my-10">
