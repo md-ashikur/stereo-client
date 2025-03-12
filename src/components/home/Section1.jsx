@@ -11,7 +11,7 @@ import Image from "next/image";
 
 export default function Section1() {
   return (
-    <div>
+    <div className="relative">
       <div >
         <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-18 -z-10 rounded-full blur-[100px] opacity-[0.75]"></div>
         <div className="h-[670px] w-[670px] bg-[#5800B0] absolute -left-40 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
@@ -21,7 +21,7 @@ export default function Section1() {
       <div className="max-w-[1440px] mx-auto">
         <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
           <div className="lg:col-span-3   ">
-           <div className="mt-32">
+           <div className="mt-44">
            <h1 className="text-6xl font-bold">
               To make Audio Money,<br/>
               <span className="text-[#5800B0]">Press Play</span>

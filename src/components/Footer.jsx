@@ -17,9 +17,9 @@ const Footer = () => {
   }
   return (
     <div>
-      <footer className="bg-[#5800B0] font-light text-sm text-white py-10 lg:px-20">
+      <footer className="bg-[#5800B0] font-light text-sm text-white py-10 lg:px-20 px-5">
       <Image src={logo} alt="" className="h-full w-auto" />
-        <div className="my-10 grid grid-cols-2 gap-8">
+        <div className="my-10 grid lg:grid-cols-2 gap-8">
           {/* Logo and Contact */}
           <div className="space-y-4">
             
@@ -46,17 +46,11 @@ const Footer = () => {
               </li>
             </ul>
 
-            {/* Social Icons */}
-            <div className="flex mt-10 space-x-4 text-xl">
-            <a href="/"> <IoLogoTwitter className="hover:scale-115 transition duration-150"/></a>
-             <a href="https://www.linkedin.com/company/stereopay/"><FaLinkedinIn className="hover:scale-115 transition duration-150"/></a>
-             <a href="https://www.instagram.com/stereopay/"><FaInstagram className="hover:scale-115 transition duration-150"/></a>
-             <a href="https://www.facebook.com/stereopay"><FaFacebookF className="hover:scale-115 transition duration-150"/></a>
-            </div>
+           
           </div>
 
           <div>
-            <ul className="border-l border-white space-y-2 pl-10">
+            <ul className="lg:border-l border-white space-y-2 lg:pl-10">
               <li>
                 <Link href="/about" className="hover:underline">
                   About us
@@ -76,6 +70,13 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+           {/* Social Icons */}
+           <div className="flex mt-10 space-x-4 text-xl">
+            <a href="/"> <IoLogoTwitter className="hover:scale-115 transition duration-150"/></a>
+             <a href="https://www.linkedin.com/company/stereopay/"><FaLinkedinIn className="hover:scale-115 transition duration-150"/></a>
+             <a href="https://www.instagram.com/stereopay/"><FaInstagram className="hover:scale-115 transition duration-150"/></a>
+             <a href="https://www.facebook.com/stereopay"><FaFacebookF className="hover:scale-115 transition duration-150"/></a>
+            </div>
         </div>
       </footer>
     </div>

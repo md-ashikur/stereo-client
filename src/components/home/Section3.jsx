@@ -15,13 +15,13 @@ export default function Section3() {
         <div className="h-[724px] w-[724px] bg-[#5800B0] absolute -right-72 -bottom-38 -z-10 rounded-full blur-[100px] opacity-[0.37]"></div>
       </div>
 
-      <div className="flex flex-col justify-center items-center px-20 space-y-16">
-        <div className="max-w-[1440px] grid grid-cols-2 gap-5">
+      <div className="flex flex-col justify-center items-center px-5 lg:px-20 space-y-16">
+        <div className="max-w-[1440px] grid lg:grid-cols-2 gap-5">
           <div>
             <Image src={pic1} alt="" className="h-auto w-full" />
           </div>
-          <div className="p-10 space-y-5">
-            <h2 className="text-4xl font-bold">
+          <div className="lg:p-10  space-y-5">
+            <h2 className="lg:text-4xl text-2xl font-bold">
               We made it easy with 3 simple steps
             </h2>
             <p>How does it work?</p>
@@ -55,9 +55,9 @@ export default function Section3() {
 
         {/* ------------------- */}
 
-        <div className="max-w-[1440px] grid grid-cols-2 gap-5">
+        <div className="max-w-[1440px] grid lg:grid-cols-2 gap-5">
           <div className="py-10 pr-8 space-y-5">
-            <h2 className="text-4xl font-bold">We promote inclusivity</h2>
+            <h2 className="lg:text-4xl text-2xl font-bold">We promote inclusivity</h2>
 
             <div className="grid grid-cols-9 gap-3">
               <Image src={user} alt="" className="h-10 w-auto" />

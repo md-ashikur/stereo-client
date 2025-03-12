@@ -9,7 +9,7 @@ import line from "../../../public/images/Vector 335.png";
 
 export default function Section4() {
   return (
-    <div className="relative">
+    <div className="relative ">
       <div>
         <div className="h-[340px] w-[340px] bg-[#5800B0] absolute left-96 top-70 -z-10 rounded-full blur-[120px] opacity-[0.27]"></div>
         <div className="h-[640px] w-[640px] bg-[#5800B0] absolute -left-20 -bottom-60 -z-10 rounded-full blur-[120px] opacity-[0.27]"></div>
@@ -17,14 +17,14 @@ export default function Section4() {
         <div className="h-[866px] w-[866px] bg-[#5800B0] absolute right-0 -bottom-96 -z-10 rounded-full blur-[200px] opacity-[0.17]"></div>
       </div>
 
-      <div className="flex flex-col items-center justify-center my-16 px-20">
-        <div className=" max-w-[1300px] flex flex-col items-center justify-center">
-          <h1 className="font-bold text-4xl text-center my-10">
+      <div className="max-w-[1300px] mx-auto lg:px-14 px-5">
+        <div className="  flex flex-col items-center justify-center">
+          <h1 className="font-bold lg:text-4xl text-2xl text-center my-10">
             Discover how does it work
           </h1>
 
           {/* $ circle----------------- */}
-          <div className="max-w-[800px] w-[550px] flex justify-between items-center relative">
+          <div className=" max-w-[800px] w-[550px] flex justify-between items-center relative">
             <div className="-ml-12 -mb-24 z-1 rounded-full bg-white/30 backdrop-blur-sm shadow-lg border border-white flex items-center justify-center h-[85px] w-[85px] text-5xl font-bold">
               $
             </div>
@@ -34,10 +34,10 @@ export default function Section4() {
             </div>
           </div>
 
-            <div className="relative max-w-[950px] w-[820px] flex justify-center items-center ">
+            <div className="lg:block hidden relative max-w-[950px] w-[820px] flex justify-center items-center ">
               <Image src={line} alt="" className="-mb-56 " />
             </div>
-          <div className="relative grid grid-cols-3 gap-8 mt-50">
+          <div className="relative grid lg:grid-cols-3 gap-8 lg:mt-50 space-y-28 mt-20">
             {/* card 1---------------- */}
             <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center ">
               <div className="h-[195px] w-[195px] rounded-full overflow-hidden -mt-24">
@@ -50,7 +50,7 @@ export default function Section4() {
               </div>
             </div>
             {/* card 2---------------- */}
-            <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center ">
+            <div className=" bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center ">
               <div className="h-[195px] w-[195px] bg-[#FBC02D] flex justify-center items-center rounded-full overflow-hidden -mt-24">
                 <Image src={logo} alt="music" className="h-auto " />
               </div>
@@ -78,10 +78,10 @@ export default function Section4() {
           </button>
 
           {/* Made for------------- */}
-          <section>
+          <div>
             <h1 className="font-bold text-4xl text-center my-5">Made for</h1>
 
-            <div className="grid grid-cols-2 gap-5 mt-38">
+            <div className="grid lg:grid-cols-2 gap-5 lg:mt-38 mt-58 lg:space-y-0 space-y-60">
               {/* painting----------- */}
               <div className="flex flex-col items-center justify-center relative">
                 <Image
@@ -89,11 +89,11 @@ export default function Section4() {
                   alt=""
                   className="max-h-[370px] max-w-[370px] absolute -top-70"
                 />
-                <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center text-center justify-center p-14 space-y-8">
-                  <h1 className="text-5xl font-bold text-[#5800B0]">
+                <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center text-center justify-center p-14 space-y-8 !w-full mx-10">
+                  <h1 className="lg:text-5xl text-2xl font-bold text-[#5800B0]">
                     Creators and Advertisers:
                   </h1>
-                  <p className="text-2xl">
+                  <p className="lg:text-2xl">
                     Music artists, composers, business owners, advertisers,
                     producers, authors, writers and everyone who creates amazing
                     content.
@@ -112,10 +112,10 @@ export default function Section4() {
                   className="max-h-[370px] max-w-[370px] absolute -top-66"
                 />
                 <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl flex flex-col items-center text-center justify-center p-14 space-y-8">
-                  <h1 className="text-5xl mt-4 font-bold text-[#5800B0]">
+                  <h1 className="lg:text-5xl text-2xl mt-4 font-bold text-[#5800B0]">
                     Listeners:
                   </h1>
-                  <p className="text-2xl">
+                  <p className="lg:text-2xl">
                     Car owners, music lovers, fit fam, entertainment and
                     lifestyle enthusiasts. Working on the road or from home,
                     working out or cooking, this playlist is made for you !
@@ -127,7 +127,7 @@ export default function Section4() {
                 </div>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </div>
     </div>
