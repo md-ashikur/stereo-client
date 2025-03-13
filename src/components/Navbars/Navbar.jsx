@@ -122,7 +122,7 @@ const Navbar = () => {
                   <Link href="/how-it-works/creators" onClick={toggleMenu} className="block px-4 py-2  text-black hover:bg-gray-100">
                     Creators
                   </Link>
-                  <Link href="/how-it-works/listeners" className="block px-4 py-2  text-black hover:bg-gray-100">
+                  <Link href="/how-it-works/listeners" onClick={toggleMenu} className="block px-4 py-2  text-black hover:bg-gray-100">
                     Listeners
                   </Link>
                 </motion.div>
