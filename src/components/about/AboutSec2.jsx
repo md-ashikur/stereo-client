@@ -22,7 +22,7 @@ export default function AboutSec2() {
           <div className="bg-white/30 backdrop-blur-sm shadow-lg py-10 px-8 text-center border border-white rounded-2xl flex flex-col items-center  space-y-10">
             <Image src={coin} alt="" className="" />
             <div>
-              <h3 className="text-[#5800B0] text-xl text-primary">
+              <h3 className="text-[#5800B0] font-bold text-xl text-primary">
                 Innovative
               </h3>
               <p className="mt-5 text-lg">
@@ -35,7 +35,7 @@ export default function AboutSec2() {
           <div className="bg-white/30 backdrop-blur-sm shadow-lg py-10 px-8 text-center border border-white rounded-2xl flex flex-col items-center  space-y-10">
             <Image src={community} alt="" className="" />
             <div>
-              <h3 className="text-[#5800B0] text-xl text-primary">Community</h3>
+              <h3 className="text-[#5800B0] font-bold text-xl text-primary">Community</h3>
               <p className="mt-5 text-lg">
                 A simple network of people who have an equal opportunity to
                 maximize their time. Our pop culture embraces a large number of
@@ -48,7 +48,7 @@ export default function AboutSec2() {
           <div className="bg-white/30 backdrop-blur-sm shadow-lg p-10 text-center border border-white rounded-2xl flex flex-col items-center  space-y-10">
             <Image src={passion} alt="" className="" />
             <div>
-              <h3 className="text-[#5800B0] text-xl text-primary">Passions</h3>
+              <h3 className="text-[#5800B0] font-bold text-xl text-primary">Passions</h3>
               <p className="mt-5 text-lg">
                 We feel your energy and resilience, and we are ready to propel
                 your ambitions into tangible results. Your energy cannot be
@@ -61,7 +61,7 @@ export default function AboutSec2() {
           <div className="bg-white/30 backdrop-blur-sm shadow-lg p-10 text-center border border-white rounded-2xl flex flex-col items-center space-y-10">
             <Image src={growth} alt="" className="" />
             <div>
-              <h3 className="text-[#5800B0] text-xl text-primary">Growth</h3>
+              <h3 className="text-[#5800B0] font-bold text-xl text-primary">Growth</h3>
               <p className="mt-5 text-lg">
                 Steady and consistent collaboration, openness, inclusivity,
                 investment, and, excellence to drive growth.
