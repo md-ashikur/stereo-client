@@ -7,7 +7,20 @@ import Discover from "@/components/home/Discover";
 
 export default function CreatorSec2() {
   return (
-    <div>
+    <div className="relative">
+  <div>
+        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 top-80 rounded-full blur-[100px] opacity-[0.36] -z-10"></div>
+        <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 -top-10 rounded-full blur-[200px] opacity-[0.36] -z-10"></div>
+        
+        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-[40vw] bottom-80 rounded-full blur-[100px] opacity-[0.36] -z-10"></div>
+
+        {/* Your audience is right here on Stereo Pay */}
+        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 -bottom-[5vh] rounded-full blur-[100px] opacity-[0.6] -z-10"></div>
+        <div className="h-[556px] w-[556px] bg-[#5800B0] absolute -right-[20vw] -bottom-[30vh] rounded-full blur-[200px] opacity-[0.6] -z-10"></div>
+      
+      </div>
+
+
       <div className="max-w-[1440px] mx-auto lg:px-20 px-5 py-10">
         <div className=" grid lg:grid-cols-3 gap-5 ">
           {/* card 1---------------- */}
@@ -55,17 +68,17 @@ export default function CreatorSec2() {
         </div>
 
         {/* discover-------------- */}
-        <div className="my-20">
+        <div className="lg:my-20 my-[24vh]">
           <Discover />
         </div>
 
         {/* Your audience is right here on Stereo Pay */}
 
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid lg:grid-cols-2 gap-5">
           <div className="rounded-lg overflow-hidden">
             <Image src={people} alt="people" className="scale-116 h-auto w-auto"/>
           </div>
-          <div className="space-y-5 flex flex-col justify-center items-start p-14">
+          <div className="space-y-5 flex flex-col justify-center items-start lg:p-14">
             <h2 className="font-bold text-4xl ">Your audience is right here on Stereo Pay</h2>
             <p className="text-lg">
               Millions of users who are ready to listen to you, love you, and
