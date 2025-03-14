@@ -86,9 +86,9 @@ Invite your friends and family to earn extra income
                You can increase your earning capacity by referring your friends. Use your referral code, invite your friends and share in the fun opportunity.
                </p>
    
-               <button className="bg-[#5800B0] hover:scale-[0.95] transition duration-300 ease-in-out rounded-lg shadow-xl shadow-[#4C00AB]/30 text-white px-7 py-3">
-                 Download
-               </button>
+               <a href="https://scanned.page/p/67b61e07751ed" target='blank'>  <button className="bg-[#5800B0] hover:scale-[0.95] transition duration-300 ease-in-out rounded-lg shadow-xl shadow-[#4C00AB]/30 text-white px-7 py-3">
+              Download
+            </button></a>
              </div>
            </div>
          </div>

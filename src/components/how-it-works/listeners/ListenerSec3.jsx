@@ -14,8 +14,8 @@ export default function ListenerSec3() {
       </div>
 
       <div className="lg:px-20 px-5 py-20">
-          {/* video section------------- */}
-       <div className="flex justify-center my-10">
+        {/* video section------------- */}
+        <div className="flex justify-center my-10">
           <div className="relative w-full h-0 pb-[56.25%]">
             <iframe
               src="https://www.youtube.com/embed/A3E3IWHAe5k"
@@ -32,8 +32,10 @@ export default function ListenerSec3() {
         <div className="max-w-[750px] mx-auto space-y-10 my-28">
           <p className="text-center text-3xl">
             <i>
-              “I never thought drivers would be the core of any new social platform. Now with Stereo Pay, we are understood and valued for transmitting message through our car stereo.
-              Podcast, music, trendy audio and comedies... it’s all here with the money!”
+              “I never thought drivers would be the core of any new social
+              platform. Now with Stereo Pay, we are understood and valued for
+              transmitting message through our car stereo. Podcast, music,
+              trendy audio and comedies... it’s all here with the money!”
             </i>
           </p>
           <div className="flex items-center justify-center gap-4 relative ">
@@ -51,7 +53,7 @@ export default function ListenerSec3() {
         </div>
 
         {/* Pricing & transparency */}
-        <div >
+        <div>
           <h1 className="font-bold text-3xl lg:text-4xl text-center">
             Pricing & transparency
           </h1>
@@ -102,24 +104,35 @@ export default function ListenerSec3() {
             </p>
 
             <div className="flex lg:flex-row flex-col gap-6 mb-10">
-              <button className="flex items-center bg-black text-white rounded-lg p-2">
-                <span>
-                  <IoLogoGooglePlaystore className="text-5xl" />
-                </span>
-                <span className=" text-left">
-                  <p className="font-thin text-xs">Available on the</p>
-                  <p className=" text-xl">Google Play</p>
-                </span>
-              </button>
-              <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2">
-                <span>
-                  <FaApple className="text-5xl" />
-                </span>
-                <span className=" text-left">
-                  <p className="font-thin text-xs">Download on the</p>
-                  <p className=" text-xl mr-4">App Store</p>
-                </span>
-              </button>
+              <a
+                href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
+                target="blank"
+              >
+                <button className="flex items-center bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
+                  <span>
+                    <IoLogoGooglePlaystore className="text-5xl" />
+                  </span>
+                  <span className=" text-left">
+                    <p className="font-thin text-xs">Available on the</p>
+                    <p className=" text-xl">Google Play</p>
+                  </span>
+                </button>
+              </a>
+
+              <a
+                href="https://testflight.apple.com/join/J4mFFNAX"
+                target="blank"
+              >
+                <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
+                  <span>
+                    <FaApple className="text-5xl" />
+                  </span>
+                  <span className=" text-left">
+                    <p className="font-thin text-xs">Download on the</p>
+                    <p className=" text-xl mr-4">App Store</p>
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>

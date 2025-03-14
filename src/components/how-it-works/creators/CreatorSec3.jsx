@@ -101,24 +101,36 @@ export default function CreatorSec3() {
             </p>
 
             <div className="flex lg:flex-row flex-col gap-6 mb-10">
-              <button className="flex items-center bg-black text-white rounded-lg p-2">
-                <span>
-                  <IoLogoGooglePlaystore className="text-5xl" />
-                </span>
-                <span className=" text-left">
-                  <p className="font-thin text-xs">Available on the</p>
-                  <p className=" text-xl">Google Play</p>
-                </span>
-              </button>
-              <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2">
-                <span>
-                  <FaApple className="text-5xl" />
-                </span>
-                <span className=" text-left">
-                  <p className="font-thin text-xs">Download on the</p>
-                  <p className=" text-xl mr-4">App Store</p>
-                </span>
-              </button>
+              <a
+                               href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
+                               target="blank"
+                             >
+                              
+                               <button className="flex items-center bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
+                                 <span>
+                                   <IoLogoGooglePlaystore className="text-5xl" />
+                                 </span>
+                                 <span className=" text-left">
+                                   <p className="font-thin text-xs">Available on the</p>
+                                   <p className=" text-xl">Google Play</p>
+                                 </span>
+                               </button>
+                             </a>
+             
+                             <a
+                               href="https://testflight.apple.com/join/J4mFFNAX"
+                               target="blank"
+                             >
+                               <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
+                                 <span>
+                                   <FaApple className="text-5xl" />
+                                 </span>
+                                 <span className=" text-left">
+                                   <p className="font-thin text-xs">Download on the</p>
+                                   <p className=" text-xl mr-4">App Store</p>
+                                 </span>
+                               </button>
+                             </a>
             </div>
           </div>
         </div>

@@ -85,9 +85,9 @@ const Navbar = () => {
               <Link href="/contact" className={`px-3 py-2 rounded-md  font-medium ${pathname === '/contact' ? 'text-black !font-bold' : 'text-black'}`}>
                 Contact
               </Link>
-              <Link href="/download" className="px-7 py-3 rounded-[10px] shadow-md shadow-[#5800B0]  font-medium text-white bg-[#5800B0] hover:bg-primary">
+              <a href="https://scanned.page/p/67b61e07751ed" target='blank' className="hover:scale-[0.95] transition duration-300 ease-in-out px-7 py-3 rounded-[10px] shadow-md shadow-[#5800B0]/60  font-medium text-white bg-[#5800B0] hover:bg-primary">
                 Download
-              </Link>
+              </a>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
