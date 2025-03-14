@@ -20,7 +20,7 @@ export default function Section1() {
       <div className="max-w-[1440px] mx-auto">
         <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
           <div className="lg:col-span-3   ">
-            <div className="mt-44">
+            <div className="lg:mt-44 mt-32">
               <h1 className="text-6xl font-bold">
                 To make Audio Money,
                 <br />
@@ -73,13 +73,13 @@ export default function Section1() {
         </div>
       </div>
       {/* brand logos---------------- */}
-      <div className="flex justify-center flex-wrap my-16 space-x-20 lg:px-20 px-5">
-        <Image src={shopify} alt="" className="h-full w-auto" />
-        <Image src={uber} alt="" className="h-full w-auto" />
-        <Image src={bolt} alt="" className="h-full w-auto" />
-        <Image src={deezer} alt="" className="h-full w-auto" />
-        <Image src={shopify} alt="" className="h-full w-auto" />
-        <Image src={uber} alt="" className="h-full w-auto" />
+      <div className="flex justify-center items-center lg:flex-row  flex-wrap my-16 lg:space-x-20 space-x-6 space-y-5 lg:space-y-0 lg:px-20 px-5">
+        <Image src={shopify} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
+        <Image src={uber} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
+        <Image src={bolt} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
+        <Image src={deezer} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
+        <Image src={shopify} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
+        <Image src={uber} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
       </div>
     </div>
   );

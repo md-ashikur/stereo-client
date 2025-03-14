@@ -134,9 +134,9 @@ const Navbar = () => {
             <Link href="/contact" onClick={toggleMenu} className={`block px-3 py-2 rounded-md text-base font-medium ${pathname === '/contact' ? 'text-black !font-bold' : 'text-black'}`}>
               Contact
             </Link>
-            <Link href="/download" className="block px-3 py-2 rounded-md text-base font-medium text-white bg-purple-600 hover:bg-purple-700">
-              Download
-            </Link>
+            <a href="https://scanned.page/p/67b61e07751ed" target='blank' className="hover:scale-[0.95] transition duration-300 ease-in-out px-7 py-3 rounded-[10px] shadow-md shadow-[#5800B0]/60  font-medium text-white bg-[#5800B0] hover:bg-primary">
+                <button className='mt-5'>Download</button>
+              </a>
           </div>
         </motion.div>
       )}
