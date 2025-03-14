@@ -22,7 +22,7 @@ export default function ContactBody() {
       </div>
 
 
-      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 px-5 md:px-20 mb-28 mt-[28vh] ">
+      <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 px-5 md:px-20 mb-28 lg:mt-[28vh] mt-[16vh]">
         <div className="space-y-5 text-xl ">
           <h1 className="font-bold text-4xl">Reach us</h1>
          <div className="pr-[13vw] space-y-7">
@@ -43,7 +43,7 @@ export default function ContactBody() {
           </p>
          </div>
 
-          <p className="text-lg font-light pr-20">
+          <p className="text-lg font-light lg:pr-20">
             You may choose to stay anonymous by using an alias. Your details are
             protected by our privacy policy and all information given will be
             treated with the utmost confidentiality.
@@ -52,7 +52,7 @@ export default function ContactBody() {
 
         {/* contact form--------------- */}
         <div className="bg-white/30 bg-opacity-30 backdrop-blur-md shadow-lg rounded-2xl p-5 md:p-10">
-          <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 p-10">
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-5 lg:p-10 p-3">
             <div>
               <label className="block text-lg font-medium">Name</label>
               <input
