@@ -68,6 +68,11 @@ const Footer = () => {
                   Privacy policy
                 </Link>
               </li>
+              <li>
+                <Link href="/faq" className="hover:underline">
+                 FAQ
+                </Link>
+              </li>
             </ul>
           </div>
            {/* Social Icons */}

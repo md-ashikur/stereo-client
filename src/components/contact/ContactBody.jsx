@@ -57,7 +57,7 @@ export default function ContactBody() {
               <label className="block text-lg font-medium">Name</label>
               <input
                 {...register("name", { required: true })}
-                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-md"
+                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-xl shadow-black/5"
                 placeholder="Type your name"
               />
               {errors.name && <span className="text-red-500">Name is required</span>}
@@ -67,7 +67,7 @@ export default function ContactBody() {
               <label className="block text-lg font-medium">Surname</label>
               <input
                 {...register("surname")}
-                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-md"
+                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-xl shadow-black/5"
                 placeholder="Type your surname"
               />
             </div>
@@ -76,7 +76,7 @@ export default function ContactBody() {
               <label className="block text-lg font-medium">E-mail</label>
               <input
                 {...register("email", { required: true })}
-                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-md"
+                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-xl shadow-black/5"
                 placeholder="Type your E-mail"
                 type="email"
               />
@@ -87,7 +87,7 @@ export default function ContactBody() {
               <label className="block text-lg font-medium">Message</label>
               <textarea
                 {...register("message", { required: true })}
-                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-md"
+                className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-xl shadow-black/5"
                 placeholder="Type your message..."
                 rows="5"
               />
@@ -97,7 +97,7 @@ export default function ContactBody() {
             <div className="flex justify-center">
               <button
                 type="submit"
-                className="bg-[#5800B0] hover:scale-[0.95] transition duration-300 ease-in-out rounded-xl shadow-lg text-white px-8 py-4 mt-5"
+                className="bg-[#5800B0] hover:scale-[0.95] transition duration-300 ease-in-out rounded-xl shadow-xl shadow-[#5800B0]/30 text-white px-8 py-4 mt-5 font-bold"
               >
                 Submit my form
               </button>

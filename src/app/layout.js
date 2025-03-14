@@ -2,7 +2,10 @@ import localFont from 'next/font/local'
 import "./globals.css";
 import Navbar from "@/components/Navbars/Navbar";
 import Footer from '@/components/Footer';
-
+import { IoLogoTwitter } from "react-icons/io";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 
 const Gotham = localFont({
   src: [
@@ -54,6 +57,14 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer/>
+
+         {/* Social Icons */}
+                   <div className="hidden lg:block fixed right-5 top-[38vh] text-[#5800B0] text-xl z-10">
+                    <a href=""> <IoLogoTwitter className="my-5 hover:scale-115 transition duration-150"/></a>
+                     <a href="https://www.linkedin.com/company/stereopay/"><FaLinkedinIn className="my-5 hover:scale-115 transition duration-150"/></a>
+                     <a href="https://www.instagram.com/stereopay/"><FaInstagram className="my-5 hover:scale-115 transition duration-150"/></a>
+                     <a href="https://www.facebook.com/stereopay"><FaFacebookF className="my-5 hover:scale-115 transition duration-150"/></a>
+                    </div>
       </body>
     </html>
   );
