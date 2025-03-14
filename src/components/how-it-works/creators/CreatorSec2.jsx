@@ -1,6 +1,6 @@
 import Image from "next/image";
 import mike from "../../../../public/images/how-it-works/mike.png";
-import people from "../../../../public/images/how-it-works/people.jpg";
+import people from "../../../../public/images/how-it-works/creator (1).png";
 import coin from "../../../../public/images/about/Coin.png";
 import growth from "../../../../public/images/about/growth.png";
 import Discover from "@/components/home/Discover";
@@ -76,7 +76,7 @@ export default function CreatorSec2() {
 
         <div className="grid lg:grid-cols-2 gap-5">
           <div className="rounded-lg overflow-hidden">
-            <Image src={people} alt="people" className="scale-116 h-auto w-auto"/>
+            <Image src={people} alt="people" className="h-auto w-auto"/>
           </div>
           <div className="space-y-5 flex flex-col justify-center items-start lg:p-14">
             <h2 className="font-bold text-4xl ">Your audience is right here on Stereo Pay</h2>

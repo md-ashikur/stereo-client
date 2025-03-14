@@ -67,13 +67,13 @@ const Navbar = () => {
                   <motion.div
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="absolute left-0 mt-8 w-48 rounded-lg shadow-lg bg-white/30 p-3 bg-opacity-30 !backdrop-blur-md "
+                    className="absolute left-0 mt-8 w-48 rounded-lg shadow-lg p-3 bg-white/60 "
                     onClick={(e) => e.stopPropagation()}
                   >
-                    <Link href="/how-it-works/creators" className={`${pathname === '/how-it-works/creators' ? 'text-black !font-bold bg-white' : 'text-black'} block px-4 py-2 rounded-lg  `} onClick={handleSubmenuClick}>
+                    <Link href="/how-it-works/creators" className={`${pathname === '/how-it-works/creators' ? 'text-[#5800B0] !font-bold bg-white' : 'text-black'} block px-4 py-2 rounded-lg  `} onClick={handleSubmenuClick}>
                       Creators
                     </Link>
-                    <Link href="/how-it-works/listeners" className={`${pathname === '/how-it-works/listeners' ? 'text-black !font-bold bg-white' : 'text-black'} block px-4 py-2 rounded-lg `} onClick={handleSubmenuClick}>
+                    <Link href="/how-it-works/listeners" className={`${pathname === '/how-it-works/listeners' ? 'text-[#5800B0] !font-bold bg-white' : 'text-black'} block px-4 py-2 rounded-lg `} onClick={handleSubmenuClick}>
                       Listeners
                     </Link>
                   </motion.div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import gift from "../../../../public/images/how-it-works/Gift.png";
-import music from "../../../../public/images/how-it-works/music room.jpg";
+import music from "../../../../public/images/how-it-works/listener 1.png";
 import coin from "../../../../public/images/about/Coin.png";
 import social from "../../../../public/images/about/community.png";
 import Discover from "@/components/home/Discover";
@@ -53,10 +53,11 @@ export default function ListenerSec2() {
                <Image src={gift} alt="" className="" />
                <div>
                  <h3 className="text-[#5800B0] font-bold text-xl text-primary">
-                 Free
+                 Get more rewards
                  </h3>
                  <p className="mt-5 text-lg">
-                 The best things in life are FREE! Stereo Pay is Free. Subscribe, press play, earn.
+                 The best thing is life is to share!
+Invite your friends and family to earn extra income
                  </p>
                </div>
              </div>
@@ -71,7 +72,7 @@ export default function ListenerSec2() {
    
            <div className="grid lg:grid-cols-2 gap-5">
              <div className="rounded-lg overflow-hidden">
-               <Image src={music} alt="people" className="scale-140 mt-10 h-auto w-auto"/>
+               <Image src={music} alt="people" className=" mt-10 h-auto w-auto"/>
              </div>
              <div className="space-y-5 flex flex-col justify-center items-start lg:p-12">
                <h2 className="font-bold text-4xl ">Everyone on Stereo Pay gets rewarded.</h2>
