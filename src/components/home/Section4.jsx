@@ -17,16 +17,24 @@ export default function Section4() {
       </div>
 
       <div className="max-w-[1300px] mx-auto lg:px-14 px-5">
-        <div className="  flex flex-col items-center">
+      {/* Discover how does it work */}
+        <div className="my-20">
           <h1 className="font-bold lg:text-4xl text-2xl text-center my-10">
             Discover how does it work
           </h1>
 
-         <Discover/>
-
+          <div className="lg:my-0 my-[16vh]">
+                   <Discover />
+                   <div className="flex justify-center">
           <button className="bg-[#5800B0] rounded-lg shadow-lg my-16 text-white px-4 py-2">
             How does it work ?
           </button>
+          </div>
+                 </div>
+
+         
+          </div>
+
 
           {/* Made for------------- */}
           <div>
@@ -79,7 +87,7 @@ export default function Section4() {
               </div>
             </div>
           </div>
-        </div>
+        
       </div>
     </div>
   );
