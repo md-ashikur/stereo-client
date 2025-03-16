@@ -91,7 +91,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
-            <button onClick={toggleMenu} className="inline-flex items-center justify-center p-2 rounded-md text-3xl text-[#5800B0] hover:text-white hover:bg-gray-700 focus:outline-none">
+            <button onClick={toggleMenu} className="inline-flex items-center justify-center p-2 rounded-md text-3xl text-[#5800B0] hover:text-white focus:outline-none">
               <span className="sr-only">Open main menu</span>
               {isOpen ? <FaTimes /> : <FaBars />}
             </button>
