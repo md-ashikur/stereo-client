@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
@@ -11,24 +11,23 @@ export default function Accordion ({ questions }) {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-
   return (
     <div className="space-y-4">
       {questions.map((question, index) => (
-        <div key={index} className=" pb-4 shadow-lg px-5 py-3 rounded-lg">
+        <div key={index} className="pb-4 shadow-lg px-5 py-3 rounded-lg">
           <button
-            className="w-full flex justify-between items-center text-left text-xl text-[#5800B0] focus:outline-none"
+            className="w-full grid grid-cols-12 text-left lg:text-xl text-[#5800B0] focus:outline-none"
             onClick={() => handleToggle(index)}
           >
-            {question.q}
-            <IoIosArrowDown
-              className={`transition-transform duration-300 ${
+            <span className='col-span-11'>{question.q}</span>
+            <span className='flex justify-end'><IoIosArrowDown
+              className={`transition-transform  duration-300 ${
                 activeIndex === index ? 'rotate-180' : ''
               }`}
-            />
+            /></span>
           </button>
           {activeIndex === index && (
-            <p className="mt-2 text-lg">{question.a}</p>
+            <p className="mt-2 lg:text-lg whitespace-pre-line">{question.a}</p>
           )}
         </div>
       ))}

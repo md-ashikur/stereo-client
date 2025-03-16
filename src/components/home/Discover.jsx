@@ -67,7 +67,7 @@ export default function Discover() {
       </div>
 
       {/* mobile-------------- */}
-      <div className="block lg:hidden absolute h-[1096px] top-[46vh] left-35 -z-10">
+      <div className="block lg:hidden absolute h-[1096px] top-[30vh] left-30 -z-10">
         <Image src={lineMobile} alt="" className="" />
       </div>
     </div>

@@ -64,7 +64,7 @@ Invite your friends and family to earn extra income
            </div>
    
            {/* discover-------------- */}
-           <div className="lg:my-20 my-[24vh]">
+           <div className="relative lg:my-20 my-[24vh]">
              <Discover />
            </div>
    

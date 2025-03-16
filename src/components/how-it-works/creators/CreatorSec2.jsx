@@ -68,7 +68,7 @@ export default function CreatorSec2() {
         </div>
 
         {/* discover-------------- */}
-        <div className="lg:my-20 my-[24vh]">
+        <div className="relative lg:my-20 my-[24vh]">
           <Discover />
         </div>
 
@@ -76,7 +76,7 @@ export default function CreatorSec2() {
 
         <div className="grid lg:grid-cols-2 gap-5">
           <div className="rounded-lg overflow-hidden">
-            <Image src={people} alt="people" className="h-auto w-auto"/>
+            <Image src={people} alt="people" className="lg:h-[456px] lg:w-[610px] h-auto w-auto"/>
           </div>
           <div className="space-y-5 flex flex-col justify-center items-start lg:p-14">
             <h2 className="font-bold text-4xl ">Your audience is right here on Stereo Pay</h2>

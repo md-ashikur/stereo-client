@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
         {/* Social Icons */}
         <div className="hidden lg:block fixed right-5 top-[38vh] text-[#5800B0] text-xl z-10">
           <a href="">
-            {" "}
+           
             <IoLogoTwitter className="my-5 hover:scale-115 transition duration-150" />
           </a>
           <a href="https://www.linkedin.com/company/stereopay/">

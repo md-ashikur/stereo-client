@@ -9,6 +9,11 @@ export default function CreatorSec3() {
       <div>
         <div className="h-[340px] w-[340px] bg-[#5800B0] absolute left-96 top-70 -z-10 rounded-full blur-[120px] opacity-[0.27]"></div>
         <div className="h-[640px] w-[640px] bg-[#5800B0] absolute -left-20 -bottom-60 -z-10 rounded-full blur-[120px] opacity-[0.27]"></div>
+
+
+        <div className="h-[560px] w-[560px] bg-[#5800B0] absolute -right-62 top-[100vh] -z-10 rounded-full blur-[200px] opacity-[0.56]"></div>
+        <div className="h-[560px] w-[560px] bg-[#5800B0] absolute -left-62 bottom-[100vh] -z-10 rounded-full blur-[200px] opacity-[0.56]"></div>
+        
         <div className="h-[760px] w-[760px] bg-[#5800B0] absolute -right-72 bottom-38 -z-10 rounded-full blur-[200px] opacity-[0.37]"></div>
         <div className="h-[866px] w-[866px] bg-[#5800B0] absolute right-0 -bottom-96 -z-10 rounded-full blur-[200px] opacity-[0.17]"></div>
       </div>
@@ -16,7 +21,7 @@ export default function CreatorSec3() {
       <div className="lg:px-20 px-5 py-20">
 
        {/* video section------------- */}
-       <div className="flex justify-center my-10">
+       <div className="max-w-[1300px] mx-auto my-10">
           <div className="relative w-full h-0 pb-[56.25%]">
             <iframe
               src="https://www.youtube.com/embed/A3E3IWHAe5k"

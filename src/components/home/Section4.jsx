@@ -23,7 +23,7 @@ export default function Section4() {
             Discover how does it work
           </h1>
 
-          <div className="lg:my-0 my-[16vh]">
+          <div className=" relative lg:my-0 my-[16vh]">
                    <Discover />
                    <div className="flex justify-center">
           <button className="bg-[#5800B0] rounded-lg shadow-lg my-16 text-white px-4 py-2">
