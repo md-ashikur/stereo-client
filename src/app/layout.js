@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${Gotham.variable} antialiased font-gotham`}>
-      <PopUp/>
+      {/* <PopUp/> */}
         <Navbar />
         {children}
         <Footer />
