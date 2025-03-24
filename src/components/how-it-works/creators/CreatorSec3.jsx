@@ -10,10 +10,9 @@ export default function CreatorSec3() {
         <div className="h-[340px] w-[340px] bg-[#5800B0] absolute left-96 top-70 -z-10 rounded-full blur-[120px] opacity-[0.27]"></div>
         <div className="h-[640px] w-[640px] bg-[#5800B0] absolute -left-20 -bottom-60 -z-10 rounded-full blur-[120px] opacity-[0.27]"></div>
 
-
         <div className="h-[560px] w-[560px] bg-[#5800B0] absolute -right-62 top-[100vh] -z-10 rounded-full blur-[200px] opacity-[0.56]"></div>
-        <div className="h-[560px] w-[560px] bg-[#5800B0] absolute -left-62 bottom-[100vh] -z-10 rounded-full blur-[200px] opacity-[0.56]"></div>
-        
+        <div className="hidden lg:block h-[560px] w-[560px] bg-[#5800B0] absolute -left-62 bottom-[100vh] -z-10 rounded-full blur-[200px] opacity-[0.56]"></div>
+
         <div className="h-[760px] w-[760px] bg-[#5800B0] absolute -right-72 bottom-38 -z-10 rounded-full blur-[200px] opacity-[0.37]"></div>
         <div className="h-[866px] w-[866px] bg-[#5800B0] absolute right-0 -bottom-96 -z-10 rounded-full blur-[200px] opacity-[0.17]"></div>
       </div>
@@ -63,7 +62,7 @@ export default function CreatorSec3() {
             Pricing & transparency
           </h1>
 
-          <div className="max-w-[845px] mx-auto lg:mt-15">
+          <div className="max-w-[845px] mx-auto mt-15">
             <div className="grid lg:grid-cols-2 py-15 border-t-2 border-white">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#5800B0]">
                 Pricing

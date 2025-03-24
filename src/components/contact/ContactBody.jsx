@@ -2,30 +2,31 @@
 
 import React from "react";
 import { useForm } from "react-hook-form";
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactBody() {
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
   const onSubmit = async (data) => {
-    const response = await fetch('/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    });
-
-    if (response.ok) {
-      // Handle success
-      alert('Email sent successfully');
-    } else {
-      // Handle error
-      alert('Error sending email');
+    try {
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        data,
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+      );
+      toast.success('Email sent successfully');
+      reset();
+    } catch (error) {
+      toast.error('Error sending email');
     }
   };
 
   return (
     <div className="relative">
+      <ToastContainer />
       <div>
         <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-18 -top-[24vh] -z-10 rounded-full blur-[100px] opacity-[0.5]"></div>
         <div className="h-[470px] w-[470px] bg-[#5800B0] absolute -left-10 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>

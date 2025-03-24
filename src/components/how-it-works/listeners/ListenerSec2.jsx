@@ -9,13 +9,13 @@ export default function ListenerSec2() {
   return (
    <div className="relative">
      <div>
-           <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 top-80 rounded-full blur-[100px] opacity-[0.36] -z-10"></div>
-           <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 -top-10 rounded-full blur-[200px] opacity-[0.36] -z-10"></div>
+           <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 lg:top-80 rounded-full blur-[100px] opacity-[0.36] -z-10"></div>
+           <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 lg:-top-10 top-[70vh] rounded-full blur-[200px] opacity-[0.36] -z-10"></div>
            
-           <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-[40vw] bottom-80 rounded-full blur-[100px] opacity-[0.36] -z-10"></div>
+           <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-[40vw] lg:bottom-80 bottom-[200vh] rounded-full blur-[100px] opacity-[0.36] -z-10"></div>
    
            {/* Your audience is right here on Stereo Pay */}
-           <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 -bottom-[5vh] rounded-full blur-[100px] opacity-[0.6] -z-10"></div>
+           <div className=" h-[355px] w-[357px] bg-[#5800B0] absolute lg:left-0 -left-[20vw] lg:-bottom-[5vh] bottom-[100vh] rounded-full blur-[100px] opacity-[0.5] -z-10"></div>
            <div className="h-[556px] w-[556px] bg-[#5800B0] absolute -right-[20vw] -bottom-[30vh] rounded-full blur-[200px] opacity-[0.6] -z-10"></div>
          
          </div>
@@ -72,7 +72,7 @@ Invite your friends and family to earn extra income
    
            <div className="grid lg:grid-cols-2 gap-5">
              <div className="rounded-lg overflow-hidden">
-               <Image src={music} alt="people" className=" mt-10 lg:h-[456px] lg:w-[610px] h-auto w-auto"/>
+               <Image src={music} alt="people" className=" mt-10 lg:h-[456px] lg:w-[610px] h-auto w-full"/>
              </div>
              <div className="space-y-5 flex flex-col justify-center items-start lg:p-12">
                <h2 className="font-bold text-4xl ">Everyone on Stereo Pay gets rewarded.</h2>

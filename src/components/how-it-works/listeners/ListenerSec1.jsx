@@ -4,8 +4,8 @@ export default function ListenerSec1() {
   return (
     <div className="relative">
       <div>
-        <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-18 -top-36 -z-10 rounded-full blur-[100px] opacity-[0.75]"></div>
-        <div className="h-[670px] w-[670px] bg-[#5800B0] absolute -left-40 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
+        <div className="h-[273px] w-[273px] bg-[#5800B0] absolute lg:right-18 -right-[30vw] -top-36 -z-10 rounded-full blur-[100px] opacity-[0.75]"></div>
+        <div className="hidden lg:block h-[670px] w-[670px] bg-[#5800B0] absolute -left-40 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
         <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -z-10 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>
       </div>
 
