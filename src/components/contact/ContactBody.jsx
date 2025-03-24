@@ -6,43 +6,52 @@ import { useForm } from "react-hook-form";
 export default function ContactBody() {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
-    // Handle form submission logic here
+  const onSubmit = async (data) => {
+    const response = await fetch('/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (response.ok) {
+      // Handle success
+      alert('Email sent successfully');
+    } else {
+      // Handle error
+      alert('Error sending email');
+    }
   };
 
   return (
     <div className="relative">
-   <div >
+      <div>
         <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-18 -top-[24vh] -z-10 rounded-full blur-[100px] opacity-[0.5]"></div>
         <div className="h-[470px] w-[470px] bg-[#5800B0] absolute -left-10 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
         <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -top-[20vh] rounded-full blur-[200px] opacity-[0.4] -z-10"></div>
-
         <div className="h-[473px] w-[473px] bg-[#5800B0] absolute -right-24 -bottom-[44vh] -z-10 rounded-full blur-[100px] opacity-[0.36]"></div>
       </div>
-
 
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 px-5 md:px-20 mb-28 lg:mt-[28vh] mt-[16vh]">
         <div className="space-y-5 text-xl ">
           <h1 className="font-bold text-4xl">Reach us</h1>
-         <div className="pr-[13vw] space-y-7">
-         <p>
-            We have an agile support team ready to respond to any questions,
-            complaints, inquiries, or suggestions.
-          </p>
-
-          <p>
-            Enter your name (or alias), surname (optional) email, and details of
-            your message. Or simply call our support phone number:
-          </p>
-          <p>
-            <b>contact@stereopay.co</b>
-          </p>
-          <p>
-            <b>+234 810 576 4324</b>
-          </p>
-         </div>
-
+          <div className="pr-[13vw] space-y-7">
+            <p>
+              We have an agile support team ready to respond to any questions,
+              complaints, inquiries, or suggestions.
+            </p>
+            <p>
+              Enter your name (or alias), surname (optional) email, and details of
+              your message. Or simply call our support phone number:
+            </p>
+            <p>
+              <b>contact@stereopay.co</b>
+            </p>
+            <p>
+              <b>+234 810 576 4324</b>
+            </p>
+          </div>
           <p className="text-lg font-light lg:pr-20">
             You may choose to stay anonymous by using an alias. Your details are
             protected by our privacy policy and all information given will be

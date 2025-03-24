@@ -119,10 +119,10 @@ const Navbar = () => {
                   className="pl-4"
                   onClick={(e) => e.stopPropagation()}
                 >
-                  <Link href="/how-it-works/creators" onClick={toggleMenu} className="block px-4 py-2  text-black hover:bg-gray-100">
+                  <Link href="/how-it-works/creators" onClick={toggleMenu} className={`${pathname === '/how-it-works/creators' ? 'text-[#5800B0] !font-bold bg-white' : 'text-black'} block px-4 py-2  text-black hover:bg-gray-100`}>
                     Creators
                   </Link>
-                  <Link href="/how-it-works/listeners" onClick={toggleMenu} className="block px-4 py-2  text-black hover:bg-gray-100">
+                  <Link href="/how-it-works/listeners" onClick={toggleMenu} className={`${pathname === '/how-it-works/listeners' ? 'text-[#5800B0] !font-bold bg-white' : 'text-black'} block px-4 py-2  text-black hover:bg-gray-100`}>
                     Listeners
                   </Link>
                 </motion.div>
