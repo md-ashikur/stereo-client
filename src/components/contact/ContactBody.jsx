@@ -39,7 +39,7 @@ export default function ContactBody() {
             <b>contact@stereopay.co</b>
           </p>
           <p>
-            <b>+234 234 567 890</b>
+            <b>+234 810 576 4324</b>
           </p>
          </div>
 

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import logo from "../../public/images/logo white.png";
 import Link from "next/link";
-import { IoLogoTwitter } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -77,7 +77,7 @@ const Footer = () => {
           </div>
            {/* Social Icons */}
            <div className="flex mt-10 space-x-4 text-xl">
-            <a href="/"> <IoLogoTwitter className="hover:scale-115 transition duration-150"/></a>
+            <a href="https://x.com/stereopay?s=11&t=6yYZh2nte2HGIYRBfkp1MA"> <FaXTwitter className="hover:scale-115 transition duration-150"/></a>
              <a href="https://www.linkedin.com/company/stereopay/"><FaLinkedinIn className="hover:scale-115 transition duration-150"/></a>
              <a href="https://www.instagram.com/stereopay/"><FaInstagram className="hover:scale-115 transition duration-150"/></a>
              <a href="https://www.facebook.com/stereopay"><FaFacebookF className="hover:scale-115 transition duration-150"/></a>

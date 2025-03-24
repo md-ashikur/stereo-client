@@ -72,7 +72,7 @@ Invite your friends and family to earn extra income
    
            <div className="grid lg:grid-cols-2 gap-5">
              <div className="rounded-lg overflow-hidden">
-               <Image src={music} alt="people" className=" mt-10 h-auto w-auto"/>
+               <Image src={music} alt="people" className=" mt-10 lg:h-[456px] lg:w-[610px] h-auto w-auto"/>
              </div>
              <div className="space-y-5 flex flex-col justify-center items-start lg:p-12">
                <h2 className="font-bold text-4xl ">Everyone on Stereo Pay gets rewarded.</h2>

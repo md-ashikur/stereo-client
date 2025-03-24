@@ -9,7 +9,7 @@ export default function AboutSec2() {
   return (
     <div className="relative">
       <div>
-        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute -left-60 top-80 rounded-full blur-[100px] opacity-[0.36]"></div>
+        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute -left-60 lg:top-80 top-[140vh] rounded-full blur-[100px] opacity-[0.36]"></div>
         <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 top-40 rounded-full blur-[140px] opacity-[0.36]"></div>
       </div>
 

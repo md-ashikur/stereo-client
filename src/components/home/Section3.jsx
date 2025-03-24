@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import pic1 from "../../../public/images/Rectangle 293.png";
-import pic2 from "../../../public/images/Rectangle 293 (1).png";
+import pic1 from "../../../public/images/we made.png";
+import pic2 from "../../../public/images/connect.png";
 import user from "../../../public/images/user.png";
 import playlist from "../../../public/images/playlist.png";
 import star from "../../../public/images/star.png";
@@ -10,15 +10,15 @@ export default function Section3() {
   return (
     <div className="relative">
       <div>
-        <div className="h-[336px] w-[336px] bg-[#5800B0] absolute -left-32 bottom-38 -z-10 rounded-full blur-[120px] opacity-[0.54]"></div>
-        <div className="h-[1024px] w-[1024px] bg-[#5800B0] absolute -left-72 -bottom-28 -z-10 rounded-full blur-[120px] opacity-[0.10]"></div>
-        <div className="h-[724px] w-[724px] bg-[#5800B0] absolute -right-72 -bottom-38 -z-10 rounded-full blur-[100px] opacity-[0.37]"></div>
+        <div className=" h-[336px] w-[336px] bg-[#5800B0] absolute -left-32 lg:bottom-38 bottom-[150vh] -z-10 rounded-full blur-[120px] opacity-[0.54]"></div>
+        <div className="h-[1024px] w-[1024px] bg-[#5800B0] absolute lg:-left-72 lg:-bottom-28 bottom-[100vh] -z-10 rounded-full blur-[120px] opacity-[0.10]"></div>
+        <div className=" h-[724px] w-[724px] bg-[#5800B0] absolute -right-72 -bottom-38 -z-10 rounded-full blur-[100px] opacity-[0.37]"></div>
       </div>
 
       <div className="flex flex-col justify-center items-center px-5 lg:px-20 space-y-16">
         <div className="max-w-[1440px] grid lg:grid-cols-2 gap-5">
           <div>
-            <Image src={pic1} alt="" className="h-auto w-full" />
+            <Image src={pic1} alt="" className="lg:h-[450px] lg:w-[610px] h-auto w-full" />
           </div>
           <div className="lg:p-10  space-y-5">
             <h2 className="lg:text-4xl text-2xl font-bold">
@@ -93,7 +93,7 @@ export default function Section3() {
           </div>
 
           <div>
-            <Image src={pic2} alt="" className="h-auto w-full" />
+            <Image src={pic2} alt="" className="lg:h-[450px] lg:w-[610px] h-auto w-full" />
           </div>
         </div>
       </div>

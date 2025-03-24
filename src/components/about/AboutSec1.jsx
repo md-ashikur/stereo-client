@@ -4,9 +4,9 @@ export default function AboutSec1() {
   return (
     <div className="relative">
       <div>
-        <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-28 -z-10 rounded-full blur-[120px] opacity-[0.75]"></div>
+        <div className="hidden lg:block h-[273px] w-[273px] bg-[#5800B0] absolute right-28 -z-10 rounded-full blur-[120px] opacity-[0.75]"></div>
         <div className="h-[670px] w-[670px] bg-[#5800B0] absolute -left-80 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
-        <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>
+        <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -z-10 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>
       </div>
       <div className="flex flex-col justify-center items-center px-5 lg:px-20 lg:h-screen space-y-10 ">
         <div className="max-w-[820px] text-center lg:mt-16 mt-34">

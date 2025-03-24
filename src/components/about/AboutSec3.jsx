@@ -5,7 +5,7 @@ export default function AboutSec3() {
   return (
     <div className="relative">
       <div>
-        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 top-40 rounded-full blur-[100px] opacity-[0.36]  -z-10"></div>
+        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 lg:top-40 top-[120vh] rounded-full blur-[100px] opacity-[0.36]  -z-10"></div>
         <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 -top-20 rounded-full blur-[200px] opacity-[0.36] -z-10"></div>
       </div>
       <div className="relative max-w-[1440px] mx-auto my-10 lg:px-20 px-5">

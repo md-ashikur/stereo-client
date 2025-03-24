@@ -13,7 +13,6 @@ export default function ListenerSec3() {
         <div className="h-[560px] w-[560px] bg-[#5800B0] absolute -right-62 top-[100vh] -z-10 rounded-full blur-[200px] opacity-[0.56]"></div>
         <div className="h-[560px] w-[560px] bg-[#5800B0] absolute -left-62 bottom-[100vh] -z-10 rounded-full blur-[200px] opacity-[0.56]"></div>
 
-        
         <div className="h-[760px] w-[760px] bg-[#5800B0] absolute -right-72 bottom-38 -z-10 rounded-full blur-[200px] opacity-[0.37]"></div>
         <div className="h-[866px] w-[866px] bg-[#5800B0] absolute right-0 -bottom-96 -z-10 rounded-full blur-[200px] opacity-[0.17]"></div>
       </div>
@@ -23,11 +22,12 @@ export default function ListenerSec3() {
         <div className="max-w-[1300px] mx-auto my-10">
           <div className="relative w-full h-0 pb-[56.25%]">
             <iframe
-              src="https://www.youtube.com/embed/A3E3IWHAe5k"
+              src="https://www.youtube.com/embed/ETzKNH7JBg8?si=PIOh7bT9F2gTyyoc"
               title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
               className="absolute top-0 left-0 w-full h-full rounded-lg"
             ></iframe>
           </div>

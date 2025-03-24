@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import Accordion from "./Accordion";
@@ -85,13 +85,21 @@ export default function FaqBody() {
   ];
 
   return (
-    <div>
+    <div className="relative">
+      <div>
+        <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-18 -top-[20vh] -z-10 rounded-full blur-[100px] opacity-[0.75]"></div>
+        <div className="h-[670px] w-[670px] bg-[#5800B0] absolute -left-40 -top-[20vh] -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
+        <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -top-[20vh] -z-10 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>
+        
+        <div className="h-[273px] w-[273px] bg-[#5800B0] absolute -left-[5vw] -bottom-[20vh] -z-10 rounded-full blur-[100px] opacity-[0.50]"></div>
+        <div className="h-[573px] w-[573px] bg-[#5800B0] absolute -right-[10vw] -bottom-[44vh] -z-10 rounded-full blur-[100px] opacity-[0.36]"></div>
+      </div>
+
       <div className="max-w-[1440px] mx-auto lg:my-[28vh] my-30 px-5 lg:px-20">
         <div className="flex flex-col items-center space-y-10">
           <h1 className="font-bold text-7xl ">FAQ</h1>
           <p className="text-2xl text-center max-w-[680px]">
-            Quisque sodales vestibulum gravida at vestibulum lectus consequat
-            egestas. Sed odio cursus massa.
+            All your answers about Stereo Pay are here
           </p>
         </div>
 
@@ -102,7 +110,7 @@ export default function FaqBody() {
               className={`${
                 activeSection === "Listeners"
                   ? "bg-[#5800B0] text-white"
-                  : "text-[#5800B0]"
+                  : "text-[#5800B0] bg-white"
               } hover:scale-[0.95] transition duration-300 ease-in-out rounded-xl shadow-xl shadow-[#5800B0]/10 px-12 lg:px-24 py-4 mt-5`}
               onClick={() => setActiveSection("Listeners")}
             >
@@ -112,7 +120,7 @@ export default function FaqBody() {
               className={`${
                 activeSection === "Creators"
                   ? "bg-[#5800B0] text-white"
-                  : "text-[#5800B0]"
+                  : "text-[#5800B0] bg-white"
               } hover:scale-[0.95] transition duration-300 ease-in-out rounded-xl shadow-xl shadow-[#5800B0]/10 px-12 lg:px-24 py-4 mt-5`}
               onClick={() => setActiveSection("Creators")}
             >
@@ -121,7 +129,7 @@ export default function FaqBody() {
           </div>
 
           {/* accordion-options---------- */}
-          <div className="mt-10">
+          <div className="mt-10 ">
             {activeSection === "Listeners" && (
               <Accordion questions={listenersQuestions} />
             )}

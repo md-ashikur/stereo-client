@@ -60,7 +60,7 @@ export default function AboutSec5() {
   return (
     <div className="relative">
       <div>
-        <div className="h-[355px] w-[357px] bg-[#5800B0] absolute left-0 top-40 rounded-full blur-[100px] opacity-[0.36]  -z-10"></div>
+        <div className="hidden lg:block h-[355px] w-[357px] bg-[#5800B0] absolute left-0 top-40 rounded-full blur-[100px] opacity-[0.36]  -z-10"></div>
         <div className="h-[856px] w-[856px] bg-[#5800B0] absolute -right-52 -top-20 rounded-full blur-[200px] opacity-[0.36] -z-10"></div>
       </div>
 
@@ -93,7 +93,7 @@ export default function AboutSec5() {
         >
           {cards.map((card, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl p-10 mt-20 mb-5">
+              <div className="lg:h-auto h-[290px] bg-white/30 backdrop-blur-sm shadow-lg border border-white rounded-2xl p-10 mt-20 mb-5">
                 <h2 className="text-7xl font-bold -mt-20">{`${card.number}.`}</h2>
                 <h3 className="text-2xl font-bold text-[#5800B0] my-6">
                   {card.title}
@@ -129,8 +129,7 @@ export default function AboutSec5() {
 
             <p>
               If you see any job advert, requesting you to register or apply
-              with an attached fee, kindly call our support team +234 123 456
-              7890 or email <b>@help@sterepay.co</b>
+              with an attached fee, kindly call our support team +234 810 576 4324 or email <b>support@stereopay.co</b>
             </p>
           </div>
         </div>

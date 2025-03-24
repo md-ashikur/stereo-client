@@ -11,7 +11,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa6";
-import apptest from "../../../public/images/apptester.jpg";
+import apptest from "../../../public/images/Jon Adeyole.jpg";
+import keke from "../../../public/images/Adenike Uka.jpg";
+import texi from "../../../public/images/Olamide Obi.jpg";
+import dj from "../../../public/images/apptester.jpg";
 
 const cards = [
   {
@@ -24,27 +27,27 @@ const cards = [
   },
   {
     number: 2,
-    pic: apptest,
-    title: "David Jones",
-    role:"Driver",
+    pic: keke,
+    title: "Adenike Uka",
+    role:"Keke driver",
     description:
-      "Stereo Pay is the only social media for driver.😁 It is interactive, content better and different than radio stations.",
+      "Stereo Pay is the only social media for driver 😁 \nIt is interactive, content better and different than radio stations",
   },
   {
     number: 3,
-    pic: apptest,
+    pic: texi,
     title: "Olamide Obi",
     role: "Taxi Driver",
     description:
-      "So excited to this app exist! Sound is money now. The more drivers the bigger it will be for us! Abeg my community join us NOW !",
+      "So excited to this app exist! Sound is money now The more drivers the bigger it will be for us! \nAbeg my community join us NOW !",
   },
   {
     number: 4,
-    pic: apptest,
+    pic: dj,
     title: "Martin G",
     role: "Dj & music producer",
     description:
-      "I see a lot of potential to make hits on Stereo Pay. Music artists have a big chance to be successful, and the promote system is easy. The algorithm make us visible, not by breaking the bank or matter of influence, just trust the process!",
+      "Music artists have a big chance to be successful, promotion is so easy! \nThe algorithm make us visible, not by breaking the bank or matter of influence like for radio stations",
   },
 ];
 
@@ -132,7 +135,7 @@ export default function Section5() {
                 <FaStar />
                 <FaStar />
                 </div>
-                <p><i>{card.description}</i></p>
+                <p className="text-xl whitespace-pre-line"><i>“{card.description}”</i></p>
               </div>
             </SwiperSlide>
           ))}

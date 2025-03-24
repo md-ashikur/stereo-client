@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbars/Navbar";
 import Footer from "@/components/Footer";
-import { IoLogoTwitter } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -60,9 +60,9 @@ export default function RootLayout({ children }) {
 
         {/* Social Icons */}
         <div className="hidden lg:block fixed right-5 top-[38vh] text-[#5800B0] text-xl z-10">
-          <a href="">
+          <a href="https://x.com/stereopay?s=11&t=6yYZh2nte2HGIYRBfkp1MA">
            
-            <IoLogoTwitter className="my-5 hover:scale-115 transition duration-150" />
+            <FaXTwitter className="my-5 hover:scale-115 transition duration-150" />
           </a>
           <a href="https://www.linkedin.com/company/stereopay/">
             <FaLinkedinIn className="my-5 hover:scale-115 transition duration-150" />

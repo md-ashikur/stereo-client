@@ -1,26 +1,43 @@
+"use client";
+
 import React from "react";
 import radio from "../../../public/images/RADIO_HOME 1.png";
-import shopify from "../../../public/images/Spotify_Logo_CMYK_Green 1 (Traced).png";
-import uber from "../../../public/images/2560px-Uber_logo_2018 1 (Traced).png";
-import bolt from "../../../public/images/1024px-Bolt_logo 1 (Traced).png";
-import deezer from "../../../public/images/1280px-Deezer_logo 1 (Traced).png";
+import product from "../../../public/images/Replace.png";
+
+// brand logo-----------
+import uber from "../../../public/images/uber.png";
+import toan from "../../../public/images/TOAN png 1.png";
+import auaton from "../../../public/images/auaton png 1.png";
+import nomba from "../../../public/images/NOMBA LOGO 1.png";
+import studio from "../../../public/images/360 DESIGNS STUDIO 1.png";
+import hoh from "../../../public/images/HOH 1.png";
+
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaApple } from "react-icons/fa";
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/autoplay";
+import { Autoplay } from "swiper/modules";
 
 export default function Section1() {
   return (
     <div className="relative">
       <div>
-        <div className="h-[273px] w-[273px] bg-[#5800B0] absolute right-18 -z-10 rounded-full blur-[100px] opacity-[0.75]"></div>
+        <div className=" h-[273px] w-[273px] bg-[#5800B0] absolute lg:right-18 -right-40 lg:top-0 -z-10 rounded-full blur-[100px] opacity-[0.75]"></div>
         <div className="h-[670px] w-[670px] bg-[#5800B0] absolute -left-40 -z-10 rounded-full blur-[100px] opacity-[0.2]"></div>
-        <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>
+        <div className="h-[260px] w-[260px] bg-[#5800B0] absolute left-40 -z-10 -bottom-16 rounded-full blur-[200px] opacity-[0.4]"></div>
       </div>
 
       <div className="max-w-[1440px] mx-auto">
         <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
-          <div className="lg:col-span-3   ">
-            <div className="lg:mt-44 mt-32">
+          {/* for mobile version */}
+          <div className="block lg:hidden mt-[6vh] px-5">
+            <Image src={product} alt="" className="h-auto w-full" />
+          </div>
+
+          <div className="lg:col-span-3">
+            <div className="lg:mt-44">
               <h1 className="text-6xl font-bold">
                 To make Audio Money,
                 <br />
@@ -32,19 +49,18 @@ export default function Section1() {
                 values your time is on Stereo Pay.
               </p>
 
-              <div className="flex lg:flex-row flex-col gap-7 mb-10">
+              <div className="flex gap-7 mb-10">
                 <a
                   href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
                   target="blank"
                 >
-                 
                   <button className="flex items-center bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
                     <span>
-                      <IoLogoGooglePlaystore className="text-5xl" />
+                      <IoLogoGooglePlaystore className="lg:text-5xl text-3xl" />
                     </span>
-                    <span className=" text-left">
+                    <span className="text-left">
                       <p className="font-thin text-xs">Available on the</p>
-                      <p className=" text-xl">Google Play</p>
+                      <p className="lg:text-xl">Google Play</p>
                     </span>
                   </button>
                 </a>
@@ -55,11 +71,11 @@ export default function Section1() {
                 >
                   <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
                     <span>
-                      <FaApple className="text-5xl" />
+                      <FaApple className="lg:text-5xl text-3xl" />
                     </span>
-                    <span className=" text-left">
+                    <span className="text-left">
                       <p className="font-thin text-xs">Download on the</p>
-                      <p className=" text-xl mr-4">App Store</p>
+                      <p className="lg:text-xl mr-4">App Store</p>
                     </span>
                   </button>
                 </a>
@@ -67,19 +83,70 @@ export default function Section1() {
             </div>
           </div>
 
-          <div className="flex justify-center lg:col-span-2 lg:px-8 px-5 ">
+          {/* for desktop version  */}
+          <div className="hidden lg:block flex justify-center lg:col-span-2 lg:px-8 px-5">
             <Image src={radio} alt="" className="h-auto w-full lg:pt-12" />
           </div>
         </div>
       </div>
+
       {/* brand logos---------------- */}
-      <div className="flex justify-center items-center lg:flex-row  flex-wrap my-16 lg:space-x-20 space-x-6 space-y-5 lg:space-y-0 lg:px-20 px-5">
-        <Image src={shopify} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
-        <Image src={uber} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
-        <Image src={bolt} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
-        <Image src={deezer} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
-        <Image src={shopify} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
-        <Image src={uber} alt="" className="lg:h-full h-8 w-auto lg:w-auto" />
+      <div className="my-16 lg:px-20 px-5 ">
+        <Swiper
+          spaceBetween={10}
+          slidesPerView={6}
+          loop={true}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+          breakpoints={{
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 5,
+              spaceBetween: 20,
+            },
+            1440: {
+              slidesPerView: 6,
+              spaceBetween: 20,
+            },
+          }}
+        >
+          <SwiperSlide>
+            <Image src={uber} alt="Uber" className="lg:h-full h-14 w-auto" />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center">
+            <Image src={toan} alt="Toan" className="lg:h-full h-14 w-auto" />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center">
+            <Image
+              src={auaton}
+              alt="Auaton"
+              className="lg:h-full h-14 w-auto"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center">
+            <Image src={nomba} alt="Nomba" className="lg:h-full h-14 w-auto" />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center">
+            <Image
+              src={studio}
+              alt="Studio"
+              className="lg:h-full h-14 w-auto"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center">
+            <Image src={hoh} alt="HOH" className="lg:h-full h-14 w-auto" />
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

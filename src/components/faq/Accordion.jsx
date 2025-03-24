@@ -14,7 +14,7 @@ export default function Accordion ({ questions }) {
   return (
     <div className="space-y-4">
       {questions.map((question, index) => (
-        <div key={index} className="pb-4 shadow-lg px-5 py-3 rounded-lg">
+        <div key={index} className="pb-4 bg-white shadow-lg px-5 py-3 rounded-lg">
           <button
             className="w-full grid grid-cols-12 text-left lg:text-xl text-[#5800B0] focus:outline-none"
             onClick={() => handleToggle(index)}
