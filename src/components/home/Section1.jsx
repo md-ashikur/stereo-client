@@ -33,7 +33,7 @@ export default function Section1() {
         <div className="grid lg:grid-cols-5 gap-5 lg:px-20 px-5 ">
           {/* for mobile version */}
           <div className="block lg:hidden mt-[6vh] px-5">
-            <Image src={product} alt="" className="h-auto w-full" />
+            <Image src={radio} alt="" className="h-auto w-full" />
           </div>
 
           <div className="lg:col-span-3">
