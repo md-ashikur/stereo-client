@@ -43,7 +43,7 @@ export default function ContactBody() {
               complaints, inquiries, or suggestions.
             </p>
             <p>
-              Enter your name (or alias), surname (optional) email, and details of
+              Enter your name (or alias), surename (optional) email, and details of
               your message. Or simply call our support phone number:
             </p>
             <p>
@@ -74,11 +74,11 @@ export default function ContactBody() {
             </div>
             
             <div>
-              <label className="block text-lg font-medium">Surname</label>
+              <label className="block text-lg font-medium">surename</label>
               <input
-                {...register("surname")}
+                {...register("surename")}
                 className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-xl shadow-black/5"
-                placeholder="Type your surname"
+                placeholder="Type your surename"
               />
             </div>
 
