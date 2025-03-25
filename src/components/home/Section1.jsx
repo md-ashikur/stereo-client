@@ -2,10 +2,9 @@
 
 import React from "react";
 import radio from "../../../public/images/RADIO_HOME 1.png";
-import product from "../../../public/images/Replace.png";
 
 // brand logo-----------
-import uber from "../../../public/images/uber.png";
+import medpau from "../../../public/images/medpau logo 1.png";
 import toan from "../../../public/images/TOAN png 1.png";
 import auaton from "../../../public/images/auaton png 1.png";
 import nomba from "../../../public/images/NOMBA LOGO 1.png";
@@ -121,7 +120,7 @@ export default function Section1() {
           }}
         >
           <SwiperSlide>
-            <Image src={uber} alt="Uber" className="lg:h-full h-14 w-auto" />
+            <Image src={medpau} alt="medpau" className="lg:h-full h-14 w-auto" />
           </SwiperSlide>
           <SwiperSlide className="flex justify-center items-center">
             <Image src={toan} alt="Toan" className="lg:h-full h-14 w-auto" />

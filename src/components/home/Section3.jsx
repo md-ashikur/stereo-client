@@ -60,16 +60,16 @@ export default function Section3() {
             <h2 className="lg:text-4xl text-2xl font-bold">We promote inclusivity</h2>
 
             <div className="grid grid-cols-9 gap-3">
-              <Image src={user} alt="" className="h-10 w-auto" />
-              <p className="col-span-8">
+              <Image src={user} alt="" className="col-span-2 lg:col-span-1 h-10 w-10" />
+              <p className="lg:col-span-8 col-span-7">
                 <b>Real Users, Real Engagement</b> – Your content reaches a
                 network of real drivers and passengers, not just passive
                 scrollers. Analytics will talk for you!
               </p>
             </div>
             <div className="grid grid-cols-9 gap-3">
-              <Image src={playlist} alt="" className="h-10 w-auto" />
-              <p className="col-span-8">
+              <Image src={playlist} alt="" className="col-span-2 lg:col-span-1 h-10 w-10" />
+              <p className="lg:col-span-8 col-span-7">
                 <b>No Need for Playlist Curation </b>– Your content is
                 automatically placed in a general playlist, ensuring it gets
                 played.
@@ -77,15 +77,15 @@ export default function Section3() {
             </div>
 
             <div className="grid grid-cols-9 gap-3">
-              <Image src={star} alt="" className="h-10 w-auto" />
-              <p className="col-span-8">
+              <Image src={star} alt="" className="col-span-2 lg:col-span-1 h-10 w-10" />
+              <p className="lg:col-span-8 col-span-7">
                 <b>100% Play Rate</b> – Unlike other platforms where users can
                 skip, your content is fully heard.
               </p>
             </div>
             <div className="grid grid-cols-9 gap-3">
-              <Image src={trending} alt="" className="h-10 w-auto" />
-              <p className="col-span-8">
+              <Image src={trending} alt="" className="col-span-2 lg:col-span-1 h-10 w-10" />
+              <p className="lg:col-span-8 col-span-7">
                 <b>Get Trending</b> – The Top 100 ranks the most engaging
                 content and profiles, boosting your visibility
               </p>
