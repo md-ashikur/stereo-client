@@ -1,7 +1,7 @@
 import Image from "next/image";
 import client from "../../../../public/images/how-it-works/client 2.jpg";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { FaApple } from "react-icons/fa";
+import googlePlay from "../../../../public/images/google-play.png"
+import appStore from "../../../../public/images/appStore.png"
 
 export default function CreatorSec3() {
   return (
@@ -18,9 +18,8 @@ export default function CreatorSec3() {
       </div>
 
       <div className="lg:px-20 px-5 py-20">
-
-       {/* video section------------- */}
-       <div className="max-w-[1300px] mx-auto my-10">
+        {/* video section------------- */}
+        <div className="max-w-[1300px] mx-auto my-10">
           <div className="relative w-full h-0 pb-[56.25%]">
             <iframe
               src="https://www.youtube.com/embed/A3E3IWHAe5k"
@@ -85,9 +84,12 @@ export default function CreatorSec3() {
           <div className="max-w-[845px] mx-auto ">
             <div className="grid lg:grid-cols-2 py-15 border-t-2 border-white">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#5800B0]">
-              PIN code
+                PIN code
               </h2>
-              <p className="text-lg lg:px-5">Build your followership and sell your PIN Code for promotion. Become an influencer on Stereo Pay!</p>
+              <p className="text-lg lg:px-5">
+                Build your followership and sell your PIN Code for promotion.
+                Become an influencer on Stereo Pay!
+              </p>
             </div>
           </div>
         </div>
@@ -106,35 +108,18 @@ export default function CreatorSec3() {
 
             <div className="flex lg:flex-row flex-col gap-6 mb-10">
               <a
-                               href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
-                               target="blank"
-                             >
-                              
-                               <button className="flex items-center bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
-                                 <span>
-                                   <IoLogoGooglePlaystore className="text-5xl" />
-                                 </span>
-                                 <span className=" text-left">
-                                   <p className="font-thin text-xs">Available on the</p>
-                                   <p className=" text-xl">Google Play</p>
-                                 </span>
-                               </button>
-                             </a>
-             
-                             <a
-                               href="https://testflight.apple.com/join/J4mFFNAX"
-                               target="blank"
-                             >
-                               <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
-                                 <span>
-                                   <FaApple className="text-5xl" />
-                                 </span>
-                                 <span className=" text-left">
-                                   <p className="font-thin text-xs">Download on the</p>
-                                   <p className=" text-xl mr-4">App Store</p>
-                                 </span>
-                               </button>
-                             </a>
+                href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
+                target="blank"
+              >
+                    <Image src={googlePlay} alt="google play" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
+              </a>
+
+              <a
+                href="https://testflight.apple.com/join/J4mFFNAX"
+                target="blank"
+              >
+                  <Image src={appStore} alt="app store" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
+              </a>
             </div>
           </div>
         </div>

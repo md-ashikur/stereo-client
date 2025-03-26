@@ -1,7 +1,7 @@
 import Image from "next/image";
 import client from "../../../../public/images/how-it-works/client.jpg";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { FaApple } from "react-icons/fa";
+import googlePlay from "../../../../public/images/google-play.png"
+import appStore from "../../../../public/images/appStore.png"
 
 export default function ListenerSec3() {
   return (
@@ -113,30 +113,14 @@ export default function ListenerSec3() {
                 href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
                 target="blank"
               >
-                <button className="flex items-center bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
-                  <span>
-                    <IoLogoGooglePlaystore className="text-5xl" />
-                  </span>
-                  <span className=" text-left">
-                    <p className="font-thin text-xs">Available on the</p>
-                    <p className=" text-xl">Google Play</p>
-                  </span>
-                </button>
+                <Image src={googlePlay} alt="google play" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
               </a>
 
               <a
                 href="https://testflight.apple.com/join/J4mFFNAX"
                 target="blank"
               >
-                <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
-                  <span>
-                    <FaApple className="text-5xl" />
-                  </span>
-                  <span className=" text-left">
-                    <p className="font-thin text-xs">Download on the</p>
-                    <p className=" text-xl mr-4">App Store</p>
-                  </span>
-                </button>
+                                 <Image src={appStore} alt="app store" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
               </a>
             </div>
           </div>

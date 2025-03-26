@@ -10,6 +10,8 @@ import auaton from "../../../public/images/auaton png 1.png";
 import nomba from "../../../public/images/NOMBA LOGO 1.png";
 import studio from "../../../public/images/360 DESIGNS STUDIO 1.png";
 import hoh from "../../../public/images/HOH 1.png";
+import googlePlay from "../../../public/images/google-play.png";
+import appStore from "../../../public/images/appStore.png";
 
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaApple } from "react-icons/fa";
@@ -53,30 +55,14 @@ export default function Section1() {
                   href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
                   target="blank"
                 >
-                  <button className="flex items-center bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
-                    <span>
-                      <IoLogoGooglePlaystore className="lg:text-5xl text-3xl" />
-                    </span>
-                    <span className="text-left">
-                      <p className="font-thin text-xs">Available on the</p>
-                      <p className="lg:text-xl">Google Play</p>
-                    </span>
-                  </button>
+                  <Image src={googlePlay} alt="google play" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
                 </a>
 
                 <a
                   href="https://testflight.apple.com/join/J4mFFNAX"
                   target="blank"
                 >
-                  <button className="flex items-center gap-2 bg-black text-white rounded-lg p-2 hover:scale-[0.95] transition duration-300 ease-in-out">
-                    <span>
-                      <FaApple className="lg:text-5xl text-3xl" />
-                    </span>
-                    <span className="text-left">
-                      <p className="font-thin text-xs">Download on the</p>
-                      <p className="lg:text-xl mr-4">App Store</p>
-                    </span>
-                  </button>
+                   <Image src={appStore} alt="app store" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
                 </a>
               </div>
             </div>

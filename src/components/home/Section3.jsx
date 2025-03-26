@@ -36,7 +36,7 @@ export default function Section3() {
                 </a>
               </li>
               <li>
-                Sign up with a referral code (If no referral code, no worries)
+                Sign up with a referral code - Driver need it to onboard
               </li>
               <li>Drivers can get verified for greater earning rates</li>
               <li>
