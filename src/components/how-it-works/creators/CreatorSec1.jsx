@@ -19,7 +19,7 @@ export default function CreatorSec1() {
           limits.
         </p>
 
-        <a href="https://scanned.page/p/67b61e07751ed" target="blank">
+        <a href="https://scanned.page/p/67b61e07751ed" target="_blank">
           <button className="bg-[#5800B0] hover:scale-[0.95] transition duration-300 ease-in-out rounded-lg shadow-xl shadow-[#4C00AB]/30 text-white px-7 py-3">
             Download
           </button>

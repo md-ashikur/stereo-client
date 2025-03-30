@@ -109,14 +109,14 @@ export default function CreatorSec3() {
             <div className="flex lg:flex-row flex-col gap-6 mb-10">
               <a
                 href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
-                target="blank"
+                target="_blank"
               >
                     <Image src={googlePlay} alt="google play" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
               </a>
 
               <a
                 href="https://testflight.apple.com/join/J4mFFNAX"
-                target="blank"
+                target="_blank"
               >
                   <Image src={appStore} alt="app store" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
               </a>

@@ -4,7 +4,7 @@ import React from "react";
 import radio from "../../public/images/RADIO_404_new 1.png"
 
 
-export default function NotFound() {
+export default function Custom404() {
   return (
 
    <div className="relative overflow-hidden">

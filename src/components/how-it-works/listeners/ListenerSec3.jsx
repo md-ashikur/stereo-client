@@ -24,10 +24,10 @@ export default function ListenerSec3() {
             <iframe
               src="https://www.youtube.com/embed/ETzKNH7JBg8?si=PIOh7bT9F2gTyyoc"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
               className="absolute top-0 left-0 w-full h-full rounded-lg"
             ></iframe>
           </div>
@@ -111,14 +111,14 @@ export default function ListenerSec3() {
             <div className="flex lg:flex-row flex-col gap-6 mb-10">
               <a
                 href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
-                target="blank"
+                target="_blank"
               >
                 <Image src={googlePlay} alt="google play" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
               </a>
 
               <a
                 href="https://testflight.apple.com/join/J4mFFNAX"
-                target="blank"
+                target="_blank"
               >
                                  <Image src={appStore} alt="app store" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
               </a>

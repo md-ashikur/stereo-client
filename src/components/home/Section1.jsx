@@ -13,8 +13,7 @@ import hoh from "../../../public/images/HOH 1.png";
 import googlePlay from "../../../public/images/google-play.png";
 import appStore from "../../../public/images/appStore.png";
 
-import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { FaApple } from "react-icons/fa";
+
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -53,14 +52,14 @@ export default function Section1() {
               <div className="flex gap-7 mb-10">
                 <a
                   href="https://appdistribution.firebase.google.com/pub/i/b1e1e3a45aee744f"
-                  target="blank"
+                  target="_blank"
                 >
                   <Image src={googlePlay} alt="google play" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
                 </a>
 
                 <a
                   href="https://testflight.apple.com/join/J4mFFNAX"
-                  target="blank"
+                  target="_blank"
                 >
                    <Image src={appStore} alt="app store" className="hover:scale-[0.95] transition duration-300 ease-in-out"/>
                 </a>
@@ -79,7 +78,7 @@ export default function Section1() {
       <div className="my-16 lg:px-20 px-5 ">
         <Swiper
           spaceBetween={10}
-          slidesPerView={6}
+          slidesPerView={5}
           loop={true}
           autoplay={{
             delay: 2000,
@@ -100,7 +99,7 @@ export default function Section1() {
               spaceBetween: 20,
             },
             1440: {
-              slidesPerView: 6,
+              slidesPerView: 5,
               spaceBetween: 20,
             },
           }}

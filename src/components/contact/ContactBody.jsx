@@ -74,7 +74,7 @@ export default function ContactBody() {
             </div>
             
             <div>
-              <label className="block text-lg font-medium">surename</label>
+              <label className="block text-lg font-medium">Surename</label>
               <input
                 {...register("surename")}
                 className="w-full px-8 py-5 bg-white rounded-2xl outline-none shadow-xl shadow-black/5"
