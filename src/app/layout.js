@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
-
+import { notFound } from "next/navigation";
 
 const Gotham = localFont({
   src: [
@@ -48,11 +48,17 @@ export const metadata = {
   title: "Stereo Pay",
   description: "Turn your daily routine into daily money. One app to transform your audio content into real money. The only playlist that values your time is on Stereo Pay.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "./favicon.ico",
   },
 };
 
 export default function RootLayout({ children }) {
+
+  if (typeof window !== "undefined" && window.location.pathname === "/invalid-route") {
+    notFound();
+  }
+
+
   return (
     <html lang="en">
       <body className={`${Gotham.variable} antialiased font-gotham`}>

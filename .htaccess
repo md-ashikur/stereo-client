@@ -7,7 +7,7 @@
   RewriteRule .* - [L]
 
   # Custom 404 page for Next.js
-  ErrorDocument 404 /404
+  ErrorDocument 404 /not-found
 
   # Redirect all other requests to Next.js
   RewriteCond %{REQUEST_FILENAME} !-f
